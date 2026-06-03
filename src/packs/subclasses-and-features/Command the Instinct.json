@@ -1,0 +1,67 @@
+{
+  "_id": "d3b1d70608082ab6",
+  "name": "Command the Instinct",
+  "type": "feat",
+  "img": "icons/sundries/books/book-symbol-eye-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Once per long rest, you overwrite the drive of a beast or plant creature. The creature must make a Wisdom saving throw against your spell save DC. On a failure, it becomes indifferent to your presence and follows one simple two-word command for 1 hour.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Vecna-Warped Arcana",
+      "book": "Vecna-Warped Arcana",
+      "page": "",
+      "license": "",
+      "rules": "2024"
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Wizard: School of Orthogenesis",
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "max": "1",
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": "6"
+    },
+    "properties": [],
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "the-ninth-school": {
+      "slug": "command-the-instinct"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14",
+    "createdTime": 1780423279552,
+    "modifiedTime": 1780423279552,
+    "lastModifiedBy": null
+  }
+}

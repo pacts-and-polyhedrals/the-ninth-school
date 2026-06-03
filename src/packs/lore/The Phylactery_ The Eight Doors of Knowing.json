@@ -1,0 +1,206 @@
+{
+  "_id": "70bb2cc385076c77",
+  "name": "The Phylactery: The Eight Doors of Knowing",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "the-ninth-school": {
+      "sourcePage": "phylactery"
+    }
+  },
+  "_stats": {
+    "systemId": null,
+    "systemVersion": null,
+    "coreVersion": "14",
+    "createdTime": 1780423740925,
+    "modifiedTime": 1780423740925,
+    "lastModifiedBy": null
+  },
+  "pages": [
+    {
+      "_id": "94b5fa37bf717be9",
+      "name": "The Choir of the Nerve",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>The Choir of the Nerve serves the doctrine of Whispered Agony. Its clerics believe every wound is a testimony and every scream is an unindexed archive. In public they tend the sick; in private they ask the wound what the patient refuses to say.</p><p>They are useful antagonists when the party needs healing from someone whose mercy has a cost.</p>"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "14",
+        "createdTime": 1780423279562,
+        "modifiedTime": 1780423279562,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "9b22dd0562b41286",
+      "name": "Diane Clearwater",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Diane Clearwater</strong> is a lich, Orthogenist Wizard 20, and Devoted of Vecna. Her phylactery is the original handwritten manuscript of <em>The Eight Doors of Knowing</em>. It smells of lavender.</p><p><strong>Phylactery:</strong> Destroying the manuscript without first reading and understanding all eight hidden phrases causes the phylactery to reform within 1d10 days. A creature who reads and understands the full doctrine gains advantage on checks to destroy the phylactery permanently.</p><p><strong>Legendary Action:</strong> Orthogenic Pulse. Diane releases biological rewrite energy. Living creatures within 20 feet must succeed on a DC 20 Constitution save or have one ability score reduced by 4 for 1 hour. Plant creatures are healed for 2d10 instead.</p>"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "14",
+        "createdTime": 1780423279562,
+        "modifiedTime": 1780423279562,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "a6c073addc7fee1b",
+      "name": "The Final Doctrine",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>The hidden acrostic structure of <em>The Eight Doors of Knowing</em> reveals the operational doctrine of the ninth school:</p><ol><li>Contain the root.</li><li>Bring the alien seed.</li><li>Read the hidden pattern.</li><li>Command the instinct.</li><li>Burn the old growth.</li><li>Dream the better form.</li><li>Feed life with death.</li><li>Fix the chosen shape.</li></ol><p>Nature is not mother. Nature is not law. Nature is precedent. And precedent can be overturned.</p>"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "14",
+        "createdTime": 1780423279562,
+        "modifiedTime": 1780423279562,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "ac8244ccbe6d1f3d",
+      "name": "The Sealed Eye",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>The Sealed Eye is an order of paladins who swear the Oath of Forbidden Secrets. Their armor is engraved inside rather than out: names, passwords, last words, and heresies rest against the skin where only the oathbound can feel them.</p><p>Some cells prevent tyrants from hoarding truth. Others serve Vecna directly. Both use the same prayers.</p>"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "14",
+        "createdTime": 1780423279562,
+        "modifiedTime": 1780423279562,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "b4859515a0098972",
+      "name": "Campaign Artifact",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<div class=\"page\" id=\"page-phylactery\">\n  <div class=\"page-header\">\n    <div class=\"page-eyebrow\">Object · Campaign Artifact</div>\n    <div class=\"page-title\">The Phylactery: The Eight Doors of Knowing</div>\n    <div class=\"page-subtitle\">The manuscript that binds Diane Clearwater to the living world &mdash; and can end her</div>\n  </div>\n\n  <div class=\"lore-box\"><p>It smells of lavender. The poems are real. The grief in them is real. The hidden doctrine is also real, and significantly more dangerous than the grief.</p></div>\n\n  <div class=\"stat-block\">\n    <div class=\"sb-head\">\n      <div class=\"sb-name\">The Eight Doors of Knowing</div>\n      <div class=\"sb-type\">Tiny object (wondrous item, artifact), requires attunement by Diane Clearwater's soul</div>\n    </div>\n    <div class=\"sb-body\">\n      <div class=\"attr-row\">\n        <div class=\"attr\"><div class=\"attr-label\">Armor Class</div><div class=\"attr-val\">5</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Hit Points</div><div class=\"attr-val\">50</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Damage Immunities</div><div class=\"attr-val\">psychic, poison</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Weight</div><div class=\"attr-val\">1 lb (feels heavier)</div></div>\n      </div>\n      <div class=\"rule\"></div>\n      <div class=\"section-head\">Properties</div>\n      <div class=\"trait\"><div class=\"trait-name\">The Binding Poems</div><p class=\"trait-desc\">A creature that reads the manuscript in full requires 1 hour and succeeds on an Intelligence (Arcana) DC 12 check to understand it as a poem collection. On a success, they can attempt a DC 17 Investigation check to notice the hidden structure. On success, they discover the eight hidden phrases and may attempt to decode the complete doctrine.</p></div>\n      <div class=\"trait\"><div class=\"trait-name\">Rejuvenation Link</div><p class=\"trait-desc\">While the manuscript exists, Diane Clearwater cannot be permanently slain. If reduced to 0 hit points, her soul retreats into the manuscript and she reforms within 1d10 days at full hit points within 5 ft of the manuscript's location.</p></div>\n      <div class=\"trait\"><div class=\"trait-name\">The Lavender Ward</div><p class=\"trait-desc\">Spells that would destroy the manuscript outright (disintegrate, etc.) must overcome a ward. The caster must make a DC 20 spellcasting ability check or the spell fails and the slot is expended. This ward is automatically bypassed if the attacker has decoded the full doctrine.</p></div>\n      <div class=\"section-head\">Destruction Sequence</div>\n      <div class=\"trait\"><div class=\"trait-name\">Step 1 &mdash; Read</div><p class=\"trait-desc\">A creature must read the complete manuscript and succeed on the DC 17 Investigation check to find the hidden phrases.</p></div>\n      <div class=\"trait\"><div class=\"trait-name\">Step 2 &mdash; Decode</div><p class=\"trait-desc\">The creature must succeed on a DC 17 Arcana check (or DC 20 for non-wizards) to understand the eight-part doctrine as a unified orthogenic ritual structure.</p></div>\n      <div class=\"trait\"><div class=\"trait-name\">Step 3 &mdash; Speak</div><p class=\"trait-desc\">The creature must speak all eight lines of the hidden doctrine aloud, in order, while holding the manuscript. Diane knows immediately when this occurs, regardless of distance.</p></div>\n      <div class=\"trait\"><div class=\"trait-name\">Step 4 &mdash; Destroy</div><p class=\"trait-desc\">While the manuscript is held by the speaking creature, it becomes vulnerable to radiant damage. Dealing 30 or more radiant damage to it in a single turn causes it to crumble to ash. Diane Clearwater can never rejuvenate. She may still be encountered as a ghost (DM discretion).</p></div>\n      <div class=\"trait\"><div class=\"trait-name\">Side Effect of Decoding</div><p class=\"trait-desc\">Any creature that completes Step 2 gains the <em>Orthogenic Mark</em>: all beasts and plants can sense they have read the hidden text and avoid them for 1d10 days. Diane cannot target them with Arcane Correction without their consent, ever. And somewhere deep in the manuscript, in ink only visible under True Seeing, the creature's name now appears in a margin &mdash; in Diane's handwriting, followed by: <em>\"So they understood. Good.\"</em></p></div>\n    </div>\n  </div>\n</div>"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "14",
+        "createdTime": 1780423740925,
+        "modifiedTime": 1780423740925,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "e0f3a56be3a915d7",
+      "name": "A Word from the Author",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>You were a druid, Terrance. You listened. You grew things. You knelt in the soil and called it communion. I loved that about you, even as I pitied it.</p><p>What follows is not a treatise on power. It is not a dark grimoire. It is a curriculum: the academic record of a theory Diane Clearwater developed across thirty years of research, death, and subsequent revision.</p><blockquote>The druid preserves the wound and calls it wilderness. The wizard studies the wound and calls it material. I will close the wound. I will improve the garden.</blockquote>"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "14",
+        "createdTime": 1780423279562,
+        "modifiedTime": 1780423279562,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "e13769140481c648",
+      "name": "Using These Subclasses",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>These subclasses are intentionally sharp-edged. They work best when the campaign has secrets, moral pressure, and enemies who weaponize truth. Before using permanent biological alteration, compelled confession, or memory manipulation against player characters, confirm the table is comfortable with those themes.</p><p>For player use, ask the player to define one boundary their character will not cross. Vecna-warped power is more interesting when it has friction.</p>"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "14",
+        "createdTime": 1780423279562,
+        "modifiedTime": 1780423279562,
+        "lastModifiedBy": null
+      }
+    }
+  ]
+}

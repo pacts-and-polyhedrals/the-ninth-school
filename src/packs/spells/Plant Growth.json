@@ -1,0 +1,91 @@
+{
+  "_id": "68e474de4dbf13af",
+  "name": "Plant Growth",
+  "type": "spell",
+  "img": "modules/the-ninth-school/assets/artwork/spell-icons/plant-growth.png",
+  "system": {
+    "description": "<p>Standard spell. Where a druid's Plant Growth is a hymn, the Orthogenist's is a command. Plants grown this way are geometrically regular, eerily symmetrical, and have a faintly synthetic quality. Animals avoid them. Druids examining such growth make an Investigation check to realize immediately that something is wrong.</p>",
+    "source": {
+      "custom": "Vecna-Warped Arcana",
+      "book": "Vecna-Warped Arcana",
+      "page": "",
+      "license": "",
+      "rules": "2024"
+    },
+    "level": 3,
+    "school": "trs",
+    "properties": [],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "activities": {},
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": "150 ft",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "recovery": []
+    },
+    "ability": "",
+    "actionType": "util",
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "the-ninth-school": {
+      "slug": "plant-growth"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14",
+    "createdTime": 1780423279561,
+    "modifiedTime": 1780423279561,
+    "lastModifiedBy": null
+  }
+}

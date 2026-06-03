@@ -1,0 +1,607 @@
+{
+  "_id": "3cfa148d4651e550",
+  "name": "Bound Grove Elemental",
+  "type": "npc",
+  "img": "modules/the-ninth-school/assets/artwork/book-art/bound-grove-elemental.png",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 22,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "dex": {
+        "value": 8,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "con": {
+        "value": 22,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "int": {
+        "value": 6,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "wis": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "cha": {
+        "value": 7,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 16,
+        "calc": "flat",
+        "formula": ""
+      },
+      "hp": {
+        "value": 184,
+        "max": 184,
+        "temp": null,
+        "tempmax": null,
+        "formula": "16d10 + 96"
+      },
+      "init": {
+        "ability": "",
+        "bonus": ""
+      },
+      "movement": {
+        "burrow": null,
+        "climb": null,
+        "fly": null,
+        "swim": null,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 60,
+        "blindsight": null,
+        "tremorsense": 60,
+        "truesight": null,
+        "units": "ft",
+        "special": "darkvision 60 ft, tremorsense 60 ft, passive Perception 10"
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "<div class=\"page\" id=\"page-grove-elemental\">\n  <div class=\"page-header\">\n    <div class=\"page-eyebrow\">Construct / Frontline Bruiser · CR 11 · XP 7,200</div>\n    <div class=\"page-title\">Bound Grove Elemental</div>\n    <div class=\"page-subtitle\">An elemental imprisoned in living wood by the Bind the Elemental Root spell — nature's force turned against nature's freedom</div>\n  </div>\n\n  <div class=\"lore-box\"><p>\"The elemental did not want to be in the tree. After sufficient time, it stopped wanting at all. This is what I call integration.\" — D.C., field notes</p></div>\n\n  <div class=\"stat-block\">\n    <div class=\"sb-head\">\n      <div class=\"sb-name\">Bound Grove Elemental</div>\n      <div class=\"sb-type\">Large elemental (plant), neutral (bound)</div>\n      <div style=\"margin-top:8px;display:flex;gap:6px;flex-wrap:wrap\">\n        <span class=\"tag\">CR 11</span><span class=\"tag\">7,200 XP</span><span class=\"tag tag-green\">Elemental / Plant</span>\n      </div>\n    </div>\n    <div class=\"sb-body\">\n      <div class=\"attr-row\">\n        <div class=\"attr\"><div class=\"attr-label\">Armor Class</div><div class=\"attr-val\">16 (natural armor)</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Hit Points</div><div class=\"attr-val\">184 (16d10 + 96)</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Speed</div><div class=\"attr-val\">30 ft</div></div>\n      </div>\n      <div class=\"core-stats\">\n        <div class=\"core-stat\"><div class=\"cs-label\">STR</div><div class=\"cs-val\">22</div><div class=\"cs-mod\">(+6)</div></div>\n        <div class=\"core-stat\"><div class=\"cs-label\">DEX</div><div class=\"cs-val\">8</div><div class=\"cs-mod\">(–1)</div></div>\n        <div class=\"core-stat\"><div class=\"cs-label\">CON</div><div class=\"cs-val\">22</div><div class=\"cs-mod\">(+6)</div></div>\n        <div class=\"core-stat\"><div class=\"cs-label\">INT</div><div class=\"cs-val\">6</div><div class=\"cs-mod\">(–2)</div></div>\n        <div class=\"core-stat\"><div class=\"cs-label\">WIS</div><div class=\"cs-val\">10</div><div class=\"cs-mod\">(+0)</div></div>\n        <div class=\"core-stat\"><div class=\"cs-label\">CHA</div><div class=\"cs-val\">7</div><div class=\"cs-mod\">(–2)</div></div>\n      </div>\n      <div class=\"attr-row\">\n        <div class=\"attr\"><div class=\"attr-label\">Damage Immunities</div><div class=\"attr-val\">Varies by bound elemental type (fire elemental = fire; earth = poison; air = lightning; water = cold)</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Damage Resistances</div><div class=\"attr-val\">bludgeoning, piercing, and slashing from nonmagical weapons</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Condition Immunities</div><div class=\"attr-val\">exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Senses</div><div class=\"attr-val\">darkvision 60 ft, tremorsense 60 ft, passive Perception 10</div></div>\n      </div>\n      <div class=\"rule\"></div>\n      <div class=\"section-head\">Special Traits</div>\n      <div class=\"trait\"><div class=\"trait-name\">Elemental Nature</div><p class=\"trait-desc\">The grove elemental doesn't require air, food, drink, or sleep. The elemental bound within the wood causes faint elemental energy to seep from the bark: warmth (fire), a low hum (air), moisture (water), or a mineral smell (earth). Animals within 30 ft instinctively flee.</p></div>\n      <div class=\"trait\"><div class=\"trait-name\">False Appearance</div><p class=\"trait-desc\">While motionless in a forest or garden, the bound grove elemental is indistinguishable from an ordinary (if unusually large and geometrically symmetrical) tree. Nature (DC 16) to detect the wrongness of its symmetry.</p></div>\n      <div class=\"trait\"><div class=\"trait-name\">Siege Monster</div><p class=\"trait-desc\">The grove elemental deals double damage to objects and structures.</p></div>\n      <div class=\"trait\"><div class=\"trait-name\">Rooted Resilience</div><p class=\"trait-desc\">At the start of each of its turns, if the grove elemental is standing on earth or natural ground, it regains 5 hit points.</p></div>\n      <div class=\"rule\"></div>\n      <div class=\"section-head\">Actions</div>\n      <div class=\"action\"><div class=\"action-name\">Multiattack</div><p class=\"action-desc\">The grove elemental makes two Slam attacks.</p></div>\n      <div class=\"action\"><div class=\"action-name\">Slam</div><p class=\"action-desc\"><em>Melee Weapon Attack:</em> +10 to hit, reach 10 ft, one target. <em>Hit:</em> 19 (3d8 + 6) bludgeoning damage plus 9 (2d8) elemental damage (type determined by bound elemental: fire, lightning, cold, or acid).</p></div>\n      <div class=\"action\"><div class=\"action-name\">Entangle Eruption <em>(Recharge 5–6)</em></div><p class=\"action-desc\">Roots erupt in a 20-ft radius centered on the elemental. Each creature in that area must succeed on a DC 18 Strength saving throw or be restrained for 1 minute (escape DC 18 Athletics). The area becomes difficult terrain.</p></div>\n      <div class=\"action\"><div class=\"action-name\">Elemental Discharge <em>(Recharge 6)</em></div><p class=\"action-desc\">The bound elemental's energy erupts in a 30-ft cone. Each creature in the cone must make a DC 17 Dexterity save, taking 42 (12d6) elemental damage on a failed save, or half on a success.</p></div>\n    </div>\n  </div>\n</div>",
+        "public": ""
+      },
+      "alignment": "neutral",
+      "race": null,
+      "type": {
+        "value": "elemental",
+        "subtype": "plant",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 11,
+      "xp": {
+        "value": 7200
+      },
+      "source": {
+        "custom": "Vecna-Warped Arcana",
+        "book": "Diane Clearwater Bestiary Compendium",
+        "page": "",
+        "license": "",
+        "rules": "2024"
+      }
+    },
+    "traits": {
+      "size": "lg",
+      "di": {
+        "value": [
+          "fire",
+          "poison",
+          "lightning",
+          "cold"
+        ],
+        "custom": "Varies by bound elemental type (fire elemental = fire; earth = poison; air = lightning; water = cold)"
+      },
+      "dr": {
+        "value": [
+          "bludgeoning",
+          "piercing",
+          "slashing",
+          "slashing"
+        ],
+        "custom": "bludgeoning, piercing, and slashing from nonmagical weapons"
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "exhaustion",
+          "frightened",
+          "grappled",
+          "paralyzed",
+          "petrified",
+          "poisoned",
+          "prone",
+          "restrained",
+          "unconscious"
+        ],
+        "custom": "exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious"
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {},
+    "spells": {},
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": 0,
+        "initiative": 20
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "7bd79193a96be83e",
+      "name": "Elemental Nature",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>The grove elemental doesn't require air, food, drink, or sleep. The elemental bound within the wood causes faint elemental energy to seep from the bark: warmth (fire), a low hum (air), moisture (water), or a mineral smell (earth). Animals within 30 ft instinctively flee.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "none",
+          "cost": null,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Bound Grove Elemental"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "f888dacd26ff6e49",
+      "name": "False Appearance",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>While motionless in a forest or garden, the bound grove elemental is indistinguishable from an ordinary (if unusually large and geometrically symmetrical) tree. Nature (DC 16) to detect the wrongness of its symmetry.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "none",
+          "cost": null,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Bound Grove Elemental"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "12ab22fc7300858a",
+      "name": "Siege Monster",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>The grove elemental deals double damage to objects and structures.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "none",
+          "cost": null,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Bound Grove Elemental"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "b84e52358c36d371",
+      "name": "Rooted Resilience",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>At the start of each of its turns, if the grove elemental is standing on earth or natural ground, it regains 5 hit points.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "none",
+          "cost": null,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Bound Grove Elemental"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "966389374de22f8e",
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>The grove elemental makes two Slam attacks.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Bound Grove Elemental"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "3aacec897a3b8909",
+      "name": "Slam",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +10 to hit, reach 10 ft, one target. <em>Hit:</em> 19 (3d8 + 6) bludgeoning damage plus 9 (2d8) elemental damage (type determined by bound elemental: fire, lightning, cold, or acid).</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Bound Grove Elemental"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "538301e678836169",
+      "name": "Entangle Eruption",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>Roots erupt in a 20-ft radius centered on the elemental. Each creature in that area must succeed on a DC 18 Strength saving throw or be restrained for 1 minute (escape DC 18 Athletics). The area becomes difficult terrain.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Bound Grove Elemental"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "642cf1d9422e0653",
+      "name": "Elemental Discharge",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>The bound elemental's energy erupts in a 30-ft cone. Each creature in the cone must make a DC 17 Dexterity save, taking 42 (12d6) elemental damage on a failed save, or half on a success.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Bound Grove Elemental"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Bound Grove Elemental",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "modules/the-ninth-school/assets/artwork/token-art/bound-grove-elemental-token.png",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    }
+  },
+  "flags": {
+    "the-ninth-school": {
+      "sourcePage": "grove-elemental"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14",
+    "createdTime": 1780423740909,
+    "modifiedTime": 1780423740909,
+    "lastModifiedBy": null
+  }
+}

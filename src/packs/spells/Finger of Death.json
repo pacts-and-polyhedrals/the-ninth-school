@@ -1,0 +1,91 @@
+{
+  "_id": "2f43b6ab6d0b1e40",
+  "name": "Finger of Death",
+  "type": "spell",
+  "img": "modules/the-ninth-school/assets/artwork/spell-icons/finger-of-death.png",
+  "system": {
+    "description": "<p>Standard spell. Diane annotated this spell with characteristic precision: <em>\"Death is not the goal. Death is the ink. The zombie that rises after is the sentence. The Finger of Death is a writing instrument. Do not mistake it for malice.\"</em></p>",
+    "source": {
+      "custom": "Vecna-Warped Arcana",
+      "book": "Vecna-Warped Arcana",
+      "page": "",
+      "license": "",
+      "rules": "2024"
+    },
+    "level": 7,
+    "school": "nec",
+    "properties": [],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "activities": {},
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": "60 ft",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "recovery": []
+    },
+    "ability": "",
+    "actionType": "save",
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "the-ninth-school": {
+      "slug": "finger-of-death"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14",
+    "createdTime": 1780423279561,
+    "modifiedTime": 1780423279561,
+    "lastModifiedBy": null
+  }
+}

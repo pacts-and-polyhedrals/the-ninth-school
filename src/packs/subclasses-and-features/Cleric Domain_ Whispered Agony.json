@@ -1,0 +1,48 @@
+{
+  "_id": "aa5ea96e9e09b30f",
+  "name": "Cleric Domain: Whispered Agony",
+  "type": "subclass",
+  "img": "icons/sundries/books/book-symbol-eye-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Clerics of Whispered Agony teach that pain is the body confessing what the mind conceals. Their prayers do not merely heal or harm; they turn wounds into witnesses for the Whispered One.</p><p>This Vecna-warped domain suits characters who collect secrets through mercy, interrogation, and the terrible intimacy of suffering.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Vecna-Warped Arcana",
+      "book": "Vecna-Warped Arcana",
+      "page": "",
+      "license": "",
+      "rules": "2024"
+    },
+    "identifier": "cleric-domain-whispered-agony",
+    "classIdentifier": "cleric",
+    "advancement": [],
+    "advancementOrigin": null,
+    "type": {
+      "value": "subclass",
+      "subtype": ""
+    },
+    "requirements": "cleric",
+    "levels": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "the-ninth-school": {
+      "slug": "cleric-domain-whispered-agony"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14",
+    "createdTime": 1780423279552,
+    "modifiedTime": 1780423279552,
+    "lastModifiedBy": null
+  }
+}

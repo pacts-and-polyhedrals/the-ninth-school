@@ -1,0 +1,91 @@
+{
+  "_id": "8f6cd6a63f74734c",
+  "name": "Root Sight",
+  "type": "spell",
+  "img": "modules/the-ninth-school/assets/artwork/spell-icons/root-sight.png",
+  "system": {
+    "description": "<p>You perceive the living pattern of one creature within range. For 1 minute, you know its current hit points and whether it has any traits granted by a spell, curse, or disease. If you have previously cast Arcane Correction on this creature, you see all alterations you have made.</p>",
+    "source": {
+      "custom": "Vecna-Warped Arcana",
+      "book": "Vecna-Warped Arcana",
+      "page": "",
+      "license": "",
+      "rules": "2024"
+    },
+    "level": 0,
+    "school": "div",
+    "properties": [],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "activities": {},
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "Concentration",
+      "units": "inst"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": "60 ft",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "recovery": []
+    },
+    "ability": "",
+    "actionType": "save",
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "the-ninth-school": {
+      "slug": "root-sight"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14",
+    "createdTime": 1780423279560,
+    "modifiedTime": 1780423279560,
+    "lastModifiedBy": null
+  }
+}

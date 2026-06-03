@@ -1,0 +1,91 @@
+{
+  "_id": "ed99d79db1844c28",
+  "name": "True Polymorph",
+  "type": "spell",
+  "img": "modules/the-ninth-school/assets/artwork/spell-icons/true-polymorph.png",
+  "system": {
+    "description": "<p>Standard spell. In Diane's doctrine, True Polymorph is the most honest spell in the wizard's arsenal: <em>\"It admits that what something is can be changed. It admits that the original form was not sacred. Every druid who sees this spell should hear those words in it. Most of them just see the transformation. That is why they kneel and I correct.\"</em></p>",
+    "source": {
+      "custom": "Vecna-Warped Arcana",
+      "book": "Vecna-Warped Arcana",
+      "page": "",
+      "license": "",
+      "rules": "2024"
+    },
+    "level": 9,
+    "school": "trs",
+    "properties": [],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "activities": {},
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "Permanent",
+      "units": "inst"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": "30 ft",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "recovery": []
+    },
+    "ability": "",
+    "actionType": "util",
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "the-ninth-school": {
+      "slug": "true-polymorph"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14",
+    "createdTime": 1780423279561,
+    "modifiedTime": 1780423279561,
+    "lastModifiedBy": null
+  }
+}

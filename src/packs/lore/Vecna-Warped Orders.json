@@ -1,0 +1,23 @@
+{
+  "_id": "ebd24918789df64b",
+  "name": "Vecna-Warped Orders",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "the-ninth-school": {
+      "slug": "vecna-warped-orders"
+    }
+  },
+  "_stats": {
+    "systemId": null,
+    "systemVersion": null,
+    "coreVersion": "14",
+    "createdTime": 1780423279562,
+    "modifiedTime": 1780423279562,
+    "lastModifiedBy": null
+  },
+  "pages": []
+}

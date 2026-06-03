@@ -1,0 +1,1007 @@
+{
+  "_id": "b6c868d47bf304a4",
+  "name": "Diane Clearwater, Orthogenist Lich",
+  "type": "npc",
+  "img": "modules/the-ninth-school/assets/artwork/book-art/diane-clearwater-orthogenist-lich.png",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 11,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "dex": {
+        "value": 16,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "con": {
+        "value": 20,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "int": {
+        "value": 26,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "wis": {
+        "value": 18,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "cha": {
+        "value": 16,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 17,
+        "calc": "flat",
+        "formula": ""
+      },
+      "hp": {
+        "value": 275,
+        "max": 275,
+        "temp": null,
+        "tempmax": null,
+        "formula": "29d8 + 145"
+      },
+      "init": {
+        "ability": "",
+        "bonus": "+4"
+      },
+      "movement": {
+        "burrow": null,
+        "climb": null,
+        "fly": null,
+        "swim": null,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": null,
+        "blindsight": null,
+        "tremorsense": null,
+        "truesight": 120,
+        "units": "ft",
+        "special": "Truesight 120 ft, passive Perception 21"
+      },
+      "spellcasting": "int"
+    },
+    "details": {
+      "biography": {
+        "value": "<div class=\"page\" id=\"page-diane\">\n  <div class=\"page-header\">\n    <div class=\"page-eyebrow\">Architect · CR 21 · XP 33,000</div>\n    <div class=\"page-title\">Diane Clearwater</div>\n    <div class=\"page-subtitle\">Orthogenist Lich, Devoted of the Whispered One, Author of the Ninth School</div>\n  </div>\n\n  <div class=\"stat-block\">\n    <div class=\"sb-head\">\n      <div class=\"sb-name\">Diane Clearwater, Orthogenist Lich</div>\n      <div class=\"sb-type\">Medium undead (lich), lawful neutral</div>\n      <div style=\"margin-top:8px;display:flex;gap:6px;flex-wrap:wrap\">\n        <span class=\"tag\">CR 21</span><span class=\"tag\">33,000 XP</span><span class=\"tag tag-purple\">Legendary</span><span class=\"tag\">Lair Actions</span><span class=\"tag\">Spellcaster</span>\n      </div>\n    </div>\n    <div class=\"sb-body\">\n\n      <div class=\"attr-row\">\n        <div class=\"attr\"><div class=\"attr-label\">Armor Class</div><div class=\"attr-val\">17 (natural armor)</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Hit Points</div><div class=\"attr-val\">275 (29d8 + 145)</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Speed</div><div class=\"attr-val\">30 ft</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Initiative</div><div class=\"attr-val\">+4</div></div>\n      </div>\n\n      <div class=\"core-stats\">\n        <div class=\"core-stat\"><div class=\"cs-label\">STR</div><div class=\"cs-val\">11</div><div class=\"cs-mod\">(+0)</div></div>\n        <div class=\"core-stat\"><div class=\"cs-label\">DEX</div><div class=\"cs-val\">16</div><div class=\"cs-mod\">(+3)</div></div>\n        <div class=\"core-stat\"><div class=\"cs-label\">CON</div><div class=\"cs-val\">20</div><div class=\"cs-mod\">(+5)</div></div>\n        <div class=\"core-stat\"><div class=\"cs-label\">INT</div><div class=\"cs-val\">26</div><div class=\"cs-mod\">(+8)</div></div>\n        <div class=\"core-stat\"><div class=\"cs-label\">WIS</div><div class=\"cs-val\">18</div><div class=\"cs-mod\">(+4)</div></div>\n        <div class=\"core-stat\"><div class=\"cs-label\">CHA</div><div class=\"cs-val\">16</div><div class=\"cs-mod\">(+3)</div></div>\n      </div>\n\n      <div class=\"attr-row\">\n        <div class=\"attr\"><div class=\"attr-label\">Saving Throws</div><div class=\"attr-val\">Con +12, Int +15, Wis +11</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Skills</div><div class=\"attr-val\">Arcana +22, History +15, Insight +11, Nature +15, Perception +11</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Damage Immunities</div><div class=\"attr-val\">poison; bludgeoning, piercing, and slashing from nonmagical weapons</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Condition Immunities</div><div class=\"attr-val\">charmed, exhaustion, frightened, paralyzed, poisoned</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Senses</div><div class=\"attr-val\">Truesight 120 ft, passive Perception 21</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Languages</div><div class=\"attr-val\">Common, Elvish, Draconic, Druidic, Sylvan, Infernal</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Damage Resistances</div><div class=\"attr-val\">necrotic; cold, fire, lightning (from Elemental Graft integration)</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Proficiency Bonus</div><div class=\"attr-val\">+7</div></div>\n      </div>\n\n      <div class=\"rule\"></div>\n\n      <div class=\"section-head\">Special Traits</div>\n\n      <div class=\"trait\">\n        <div class=\"trait-name\">Orthogenic Aura (10 ft)</div>\n        <p class=\"trait-desc\">Druids and rangers within 10 ft must make a DC 20 Wisdom save at the start of each of their turns or have their connection to natural magic disrupted: Wild Shape reverts, concentration spells from the Druid or Ranger list drop, and their Channel Divinity is suppressed until they leave the aura.</p>\n      </div>\n      <div class=\"trait\">\n        <div class=\"trait-name\">Legendary Resistance (3/Day)</div>\n        <p class=\"trait-desc\">If Diane fails a saving throw, she can choose to succeed instead.</p>\n      </div>\n      <div class=\"trait\">\n        <div class=\"trait-name\">Read the Pattern (Passive)</div>\n        <p class=\"trait-desc\">Diane is always aware of the number, type, and current hit points of all living creatures within 60 ft. She cannot be surprised by living creatures.</p>\n      </div>\n      <div class=\"trait\">\n        <div class=\"trait-name\">Rejuvenation (Phylactery Intact)</div>\n        <p class=\"trait-desc\">If destroyed, Diane gains a new body in 1d10 days, regaining all hit points and returning within 5 ft of her phylactery — the original manuscript of The Eight Doors of Knowing. While the phylactery is intact and the hidden doctrine within it remains unread-and-decoded by her enemies, she cannot be permanently destroyed.</p>\n      </div>\n      <div class=\"trait\">\n        <div class=\"trait-name\">Turn Resistance</div>\n        <p class=\"trait-desc\">Diane has advantage on saving throws against any effect that turns undead.</p>\n      </div>\n      <div class=\"trait\">\n        <div class=\"trait-name\">Spellcasting</div>\n        <p class=\"trait-desc\">Diane is a 20th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 23, +15 to hit with spell attacks). She has the following wizard spells prepared:</p>\n        <p class=\"trait-desc\" style=\"margin-top:6px\"><em>Cantrips (at will):</em> Root Sight, Instinct Tap, chill touch, fire bolt, mage hand, prestidigitation</p>\n        <p class=\"trait-desc\"><em>1st (4 slots):</em> Alien Seed, Orthogenic Rootbind, detect magic, identify, shield</p>\n        <p class=\"trait-desc\"><em>2nd (3 slots):</em> Command the Green, Corrective Bloom, misty step, web</p>\n        <p class=\"trait-desc\"><em>3rd (3 slots):</em> Ninth Door Germination, Elemental Graft, counterspell, dispel magic</p>\n        <p class=\"trait-desc\"><em>4th (3 slots):</em> Perfected Beast, Silence of the Grove, blight, polymorph</p>\n        <p class=\"trait-desc\"><em>5th (3 slots):</em> The Forest Forgets, Corpse Orchard, animate objects, cloudkill</p>\n        <p class=\"trait-desc\"><em>6th (2 slots):</em> Anti-Druidic Zone, Bind the Elemental Root, create undead, true seeing</p>\n        <p class=\"trait-desc\"><em>7th (2 slots):</em> Wild Shape Undone, Orthogenic Plague, finger of death, teleport</p>\n        <p class=\"trait-desc\"><em>8th (1 slot):</em> Ecosystem Override, Rewrite the Pattern, mind blank</p>\n        <p class=\"trait-desc\"><em>9th (1 slot):</em> The Ninth Verdure, Perfected Genesis, true polymorph</p>\n      </div>\n\n      <div class=\"rule\"></div>\n      <div class=\"section-head\">Actions</div>\n\n      <div class=\"action\">\n        <div class=\"action-name\">Paralyzing Touch</div>\n        <p class=\"action-desc\"><em>Melee Spell Attack:</em> +10 to hit, reach 5 ft, one creature. <em>Hit:</em> 10 (3d6) cold damage, and the target must succeed on a DC 20 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the save at the end of each of its turns, ending the effect on a success.</p>\n      </div>\n      <div class=\"action\">\n        <div class=\"action-name\">Orthogenic Pulse <em>(Recharge 5–6)</em></div>\n        <p class=\"action-desc\">Diane releases a biological rewrite wave. All living creatures within 20 ft must succeed on a DC 23 Constitution saving throw. On a failure, one ability score of Diane's choice is reduced by 4 for 1 hour. On a success, speed is halved until the end of the creature's next turn. Plant-type creatures and orthogenic undead are instead healed for 2d10 hit points.</p>\n      </div>\n      <div class=\"action\">\n        <div class=\"action-name\">Arcane Correction <em>(1/day, action)</em></div>\n        <p class=\"action-desc\">Diane permanently alters the biology of one willing or incapacitated creature within 5 ft. She may grant or remove a trait with a CR value equal to her proficiency bonus (7). This alteration cannot be dispelled, counterspelled, or removed by Remove Curse. At DM's discretion, it may manifest subtle aesthetic changes: geometric patterns on skin, altered eye color, or a faint smell of lavender and earth.</p>\n      </div>\n\n      <div class=\"rule\"></div>\n      <div class=\"section-head\">Bonus Actions</div>\n      <div class=\"action\">\n        <div class=\"action-name\">Deep Read</div>\n        <p class=\"action-desc\">Diane analyzes one creature she can see. Until the start of her next turn, she has advantage on attack rolls and spell attack rolls against that creature, and she learns its hit point maximum, one damage immunity or resistance, and whether it has been altered by any magic, curse, or Arcane Correction.</p>\n      </div>\n    </div>\n\n    <div class=\"legendary-section\">\n      <div class=\"section-head\">Legendary Actions (3/turn)</div>\n      <div class=\"action\">\n        <div class=\"action-name\">Cantrip (1 action)</div>\n        <p class=\"action-desc\">Diane casts a cantrip.</p>\n      </div>\n      <div class=\"action\">\n        <div class=\"action-name\">Paralyzing Touch (2 actions)</div>\n        <p class=\"action-desc\">Diane uses her Paralyzing Touch.</p>\n      </div>\n      <div class=\"action\">\n        <div class=\"action-name\">Corrective Bloom (2 actions)</div>\n        <p class=\"action-desc\">Diane casts Corrective Bloom without expending a spell slot, targeting a 15-ft radius centered on a point she can see within 60 ft.</p>\n      </div>\n      <div class=\"action\">\n        <div class=\"action-name\">The Garden Commands (3 actions)</div>\n        <p class=\"action-desc\">Diane commands all orthogenic undead within 60 ft. Each may immediately move up to their speed and make one attack as a reaction. This movement does not provoke opportunity attacks.</p>\n      </div>\n    </div>\n  </div>\n\n  <div class=\"lair-box\">\n    <div class=\"lair-title\">Lair Actions (Initiative Count 20)</div>\n    <div class=\"action\" style=\"margin-bottom:0.75rem\">\n      <div class=\"action-name\">The Ground Corrects</div>\n      <p class=\"action-desc\">Roots and vines erupt in a 20-ft square Diane can see within 120 ft. The area becomes difficult terrain and all creatures in it must succeed on a DC 20 Strength save or be restrained until they use an action to succeed on a DC 18 Athletics check. Lasts until Diane uses this action again.</p>\n    </div>\n    <div class=\"action\" style=\"margin-bottom:0.75rem\">\n      <div class=\"action-name\">Anti-Druidic Pulse</div>\n      <p class=\"action-desc\">One druid, ranger, or nature-aligned spellcaster within 120 ft must succeed on a DC 20 Wisdom save or lose all druidic spell slots of 3rd level and lower until the end of their next turn. Wild Shape reverts immediately on a failure.</p>\n    </div>\n    <div class=\"action\">\n      <div class=\"action-name\">Corpse Orchard Node</div>\n      <p class=\"action-desc\">A Corpse Orchard Node blooms at a point Diane can see within 90 ft (see Ninth Door Germination). It appears instantly, fully formed, with 20 HP. If a node already exists in the lair, Diane may instead heal it for 20 HP.</p>\n    </div>\n  </div>\n\n  <div class=\"phylactery-box\">\n    <div class=\"phyl-title\">The Phylactery: The Eight Doors of Knowing</div>\n    <div class=\"trait\">\n      <div class=\"trait-name\">Description</div>\n      <p class=\"trait-desc\">A handwritten manuscript on lavender-scented parchment, bound in pale green leather threaded with black roots. The title reads: <em>The Eight Doors of Knowing — by Diane Clearwater.</em> It appears to be a collection of melancholy poems.</p>\n    </div>\n    <div class=\"trait\">\n      <div class=\"trait-name\">Destruction</div>\n      <p class=\"trait-desc\">The phylactery has AC 5, 50 HP, and immunity to poison and psychic damage. Simply destroying it causes it to reform in 1d10 days. To permanently destroy it: a creature must first decode all eight hidden phrases within the manuscript (Arcana DC 17 after reading all poems, or Investigation DC 20 for non-wizards), speak the complete eight-line doctrine aloud in order while holding the manuscript, then subject it to radiant damage of 30 or more in a single turn. Only then does it crumble permanently — and Diane cannot rejuvenate.</p>\n    </div>\n    <div class=\"trait\">\n      <div class=\"trait-name\">Side Effect</div>\n      <p class=\"trait-desc\">Any creature that reads and decodes the full hidden doctrine gains the Orthogenic Mark: they can never be the target of Diane's Arcane Correction against their will, but all beasts and plants can sense they have read the forbidden text and will avoid them for 1d10 days.</p>\n    </div>\n  </div>\n</div>",
+        "public": ""
+      },
+      "alignment": "lawful neutral",
+      "race": null,
+      "type": {
+        "value": "undead",
+        "subtype": "lich",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 21,
+      "xp": {
+        "value": 33000
+      },
+      "source": {
+        "custom": "Vecna-Warped Arcana",
+        "book": "Diane Clearwater Bestiary Compendium",
+        "page": "",
+        "license": "",
+        "rules": "2024"
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [
+          "poison",
+          "bludgeoning",
+          "piercing",
+          "slashing",
+          "slashing"
+        ],
+        "custom": "poison; bludgeoning, piercing, and slashing from nonmagical weapons"
+      },
+      "dr": {
+        "value": [
+          "necrotic",
+          "cold",
+          "fire",
+          "lightning"
+        ],
+        "custom": "necrotic; cold, fire, lightning"
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "charmed",
+          "exhaustion",
+          "frightened",
+          "paralyzed",
+          "poisoned"
+        ],
+        "custom": "charmed, exhaustion, frightened, paralyzed, poisoned"
+      },
+      "languages": {
+        "value": [],
+        "custom": "Common, Elvish, Draconic, Druidic, Sylvan, Infernal"
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "arc": {
+        "value": 2
+      },
+      "his": {
+        "value": 1
+      },
+      "ins": {
+        "value": 1
+      },
+      "nat": {
+        "value": 1
+      },
+      "prc": {
+        "value": 1
+      }
+    },
+    "spells": {},
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 3,
+        "max": 3
+      },
+      "legres": {
+        "value": 3,
+        "max": 3
+      },
+      "lair": {
+        "value": 1,
+        "initiative": 20
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "42bf9a1fc1945d3e",
+      "name": "Orthogenic Aura (10 ft)",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>Druids and rangers within 10 ft must make a DC 20 Wisdom save at the start of each of their turns or have their connection to natural magic disrupted: Wild Shape reverts, concentration spells from the Druid or Ranger list drop, and their Channel Divinity is suppressed until they leave the aura.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "none",
+          "cost": null,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Diane Clearwater, Orthogenist Lich"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "950c3e953d0f0457",
+      "name": "Legendary Resistance (3/Day)",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>If Diane fails a saving throw, she can choose to succeed instead.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "none",
+          "cost": null,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Diane Clearwater, Orthogenist Lich"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "70b653d2ffaf2cbe",
+      "name": "Read the Pattern (Passive)",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>Diane is always aware of the number, type, and current hit points of all living creatures within 60 ft. She cannot be surprised by living creatures.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "none",
+          "cost": null,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Diane Clearwater, Orthogenist Lich"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "f9235741672f880d",
+      "name": "Rejuvenation (Phylactery Intact)",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>If destroyed, Diane gains a new body in 1d10 days, regaining all hit points and returning within 5 ft of her phylactery &mdash; the original manuscript of The Eight Doors of Knowing. While the phylactery is intact and the hidden doctrine within it remains unread-and-decoded by her enemies, she cannot be permanently destroyed.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "none",
+          "cost": null,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Diane Clearwater, Orthogenist Lich"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "453c7f3310403d54",
+      "name": "Turn Resistance",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>Diane has advantage on saving throws against any effect that turns undead.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "none",
+          "cost": null,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Diane Clearwater, Orthogenist Lich"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "26b84d089f55832d",
+      "name": "Spellcasting",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>Diane is a 20th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 23, +15 to hit with spell attacks). She has the following wizard spells prepared:</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "none",
+          "cost": null,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Diane Clearwater, Orthogenist Lich"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "43df237149ad5954",
+      "name": "Paralyzing Touch",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Spell Attack:</em> +10 to hit, reach 5 ft, one creature. <em>Hit:</em> 10 (3d6) cold damage, and the target must succeed on a DC 20 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the save at the end of each of its turns, ending the effect on a success.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Diane Clearwater, Orthogenist Lich"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "8db853a32a911df6",
+      "name": "Orthogenic Pulse",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>Diane releases a biological rewrite wave. All living creatures within 20 ft must succeed on a DC 23 Constitution saving throw. On a failure, one ability score of Diane's choice is reduced by 4 for 1 hour. On a success, speed is halved until the end of the creature's next turn. Plant-type creatures and orthogenic undead are instead healed for 2d10 hit points.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Diane Clearwater, Orthogenist Lich"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "621bbafabd6eff40",
+      "name": "Arcane Correction",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>Diane permanently alters the biology of one willing or incapacitated creature within 5 ft. She may grant or remove a trait with a CR value equal to her proficiency bonus (7). This alteration cannot be dispelled, counterspelled, or removed by Remove Curse. At DM's discretion, it may manifest subtle aesthetic changes: geometric patterns on skin, altered eye color, or a faint smell of lavender and earth.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Diane Clearwater, Orthogenist Lich"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "f9089a774c6cfab5",
+      "name": "Deep Read",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>Diane analyzes one creature she can see. Until the start of her next turn, she has advantage on attack rolls and spell attack rolls against that creature, and she learns its hit point maximum, one damage immunity or resistance, and whether it has been altered by any magic, curse, or Arcane Correction.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Diane Clearwater, Orthogenist Lich"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "f8574c4b6d53fd2d",
+      "name": "Legendary: Cantrip",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>Diane casts a cantrip.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Diane Clearwater, Orthogenist Lich"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "5c244d4ec24c62fb",
+      "name": "Legendary: Paralyzing Touch",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Spell Attack:</em> +10 to hit, reach 5 ft, one creature. <em>Hit:</em> 10 (3d6) cold damage, and the target must succeed on a DC 20 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the save at the end of each of its turns, ending the effect on a success.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Diane Clearwater, Orthogenist Lich"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "b804d12d1a42a4c3",
+      "name": "Legendary: Corrective Bloom",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>Diane casts Corrective Bloom without expending a spell slot, targeting a 15-ft radius centered on a point she can see within 60 ft.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Diane Clearwater, Orthogenist Lich"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "048b0960da719c6c",
+      "name": "Legendary: The Garden Commands",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>Diane commands all orthogenic undead within 60 ft. Each may immediately move up to their speed and make one attack as a reaction. This movement does not provoke opportunity attacks.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "legendary",
+          "cost": 1,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Diane Clearwater, Orthogenist Lich"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "5889500ef1d23c83",
+      "name": "Lair: The Ground Corrects",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>Roots and vines erupt in a 20-ft square Diane can see within 120 ft. The area becomes difficult terrain and all creatures in it must succeed on a DC 20 Strength save or be restrained until they use an action to succeed on a DC 18 Athletics check. Lasts until Diane uses this action again.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "lair",
+          "cost": 1,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Diane Clearwater, Orthogenist Lich"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "5c7f9b6915857ad1",
+      "name": "Lair: Anti-Druidic Pulse",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>One druid, ranger, or nature-aligned spellcaster within 120 ft must succeed on a DC 20 Wisdom save or lose all druidic spell slots of 3rd level and lower until the end of their next turn. Wild Shape reverts immediately on a failure.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "lair",
+          "cost": 1,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Diane Clearwater, Orthogenist Lich"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "bda0f12f4a5f55b5",
+      "name": "Lair: Corpse Orchard Node",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>A Corpse Orchard Node blooms at a point Diane can see within 90 ft (see Ninth Door Germination). It appears instantly, fully formed, with 20 HP. If a node already exists in the lair, Diane may instead heal it for 20 HP.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "lair",
+          "cost": 1,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Diane Clearwater, Orthogenist Lich"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Diane Clearwater, Orthogenist Lich",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/the-ninth-school/assets/artwork/token-art/diane-clearwater-orthogenist-lich-token.png",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    }
+  },
+  "flags": {
+    "the-ninth-school": {
+      "sourcePage": "diane"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14",
+    "createdTime": 1780423740905,
+    "modifiedTime": 1780423740905,
+    "lastModifiedBy": null
+  }
+}

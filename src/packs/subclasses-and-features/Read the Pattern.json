@@ -1,0 +1,62 @@
+{
+  "_id": "7780fffb171ca2f4",
+  "name": "Read the Pattern",
+  "type": "feat",
+  "img": "icons/sundries/books/book-symbol-eye-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Passive.</strong> You are always aware of the number and type of living creatures within 30 feet of you, even through walls. This awareness does not reveal position, only presence and broad category.</p><p><strong>Bonus Action: Deep Read.</strong> You analyze one creature you can see. Until the start of your next turn, you have advantage on attack rolls and spell save DCs against that creature, and you learn its hit point maximum, one damage vulnerability or resistance, or one special sense it possesses.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Vecna-Warped Arcana",
+      "book": "Vecna-Warped Arcana",
+      "page": "",
+      "license": "",
+      "rules": "2024"
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Wizard: School of Orthogenesis",
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "recovery": []
+    },
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": "2"
+    },
+    "properties": [],
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "the-ninth-school": {
+      "slug": "read-the-pattern"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14",
+    "createdTime": 1780423279552,
+    "modifiedTime": 1780423279552,
+    "lastModifiedBy": null
+  }
+}

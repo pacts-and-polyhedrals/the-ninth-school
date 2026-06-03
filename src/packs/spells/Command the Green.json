@@ -1,0 +1,91 @@
+{
+  "_id": "f185ba81ce88941b",
+  "name": "Command the Green",
+  "type": "spell",
+  "img": "modules/the-ninth-school/assets/artwork/spell-icons/command-the-green.png",
+  "system": {
+    "description": "<p>You impose a single behavioral override on a beast or plant creature with CR &le; your proficiency bonus. The creature obeys a three-word command (Move here; Attack him; Stand still) for up to 1 hour without repeated saves. It does not understand why it obeys. The compulsion is biological, not magical.</p><p><em>At Higher Levels: +1 to CR cap per slot level above 2nd.</em></p>",
+    "source": {
+      "custom": "Vecna-Warped Arcana",
+      "book": "Vecna-Warped Arcana",
+      "page": "",
+      "license": "",
+      "rules": "2024"
+    },
+    "level": 2,
+    "school": "enc",
+    "properties": [],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "activities": {},
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": "30 ft",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "recovery": []
+    },
+    "ability": "",
+    "actionType": "save",
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "the-ninth-school": {
+      "slug": "command-the-green"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14",
+    "createdTime": 1780423279560,
+    "modifiedTime": 1780423279560,
+    "lastModifiedBy": null
+  }
+}

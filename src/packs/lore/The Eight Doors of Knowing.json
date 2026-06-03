@@ -1,0 +1,284 @@
+{
+  "_id": "8e47ffe4cb77d725",
+  "name": "The Eight Doors of Knowing",
+  "ownership": {
+    "default": -1
+  },
+  "flags": {
+    "the-ninth-school": {
+      "slug": "eight-doors"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "systemId": null,
+    "systemVersion": null,
+    "coreVersion": "14",
+    "createdTime": 1780428267585,
+    "modifiedTime": 1780428267585,
+    "lastModifiedBy": null
+  },
+  "pages": [
+    {
+      "_id": "0616fb29fa541218",
+      "name": "Closing Fragment — The Ninth Art",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Eight schools. Eight doors. Eight ways the world admits its seams.</p><p>But there is a ninth art no wizard names.</p><p>The spell by which the dead remain beloved.<br>The spell by which the living refuse release.<br>The spell that needs no gesture but reaching.<br>No component but grief.<br>No word but: <em>stay.</em></p><p>Terrance, if you find these pages, do not mistake them for apology.</p><p>I am not sorry I returned.</p><p>I am only sorry I returned changed enough for you to wonder whether love should survive the answer.</p><hr/><p><strong>GM Reference &mdash; Hidden Lines in Sequence (Arcana / Investigation DC 17):</strong></p><ol><li><em>Now I have learned what shelters fear.</em></li><li><em>That I am what the doorway chose.</em></li><li><em>Some watchers choose the suffering.</em></li><li><em>Which one of us bewitched your heart?</em></li><li><em>And leaves no room for smaller death.</em></li><li><em>The lie is how you look at me.</em></li><li><em>But what grew back when grief walked in.</em></li><li><em>They only ask what love can bend.</em></li></ol><p><em>True hidden doctrine requires DC 17 Arcana. See Orthogenesis Manuscript for the decoded eight-part doctrine.</em></p>"
+      },
+      "sort": 1000000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "14",
+        "createdTime": 1780428267585,
+        "modifiedTime": 1780428267585,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "0fca62d5ef7af77a",
+      "name": "VIII. Transmutation — The Shape That Survives",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>All things change, though all things plead:<br>the flower falls, becomes the seed.<br>The iron rusts, the child grows tall.<br>The mountain moves by not at all.</p><p>You knew me once in warmer skin,<br>with flour on sleeves and laughter thin,<br>with tired hands and garden stains,<br>with winter aching in my veins.</p><p>Now look again. I am not less<br>for having worn another dress.<br>The river is not false because<br>it left the shape you loved it was.</p><p>To change is not to be unmade.<br>To molt is not to have betrayed.<br>The snake that leaves its skin behind<br>does not become a different mind.</p><p>And yet I know why you would mourn.<br>No dawn forgives the night it&rsquo;s born.<br>No living heart can calmly see<br>the altered face of memory.</p><p>But if you loved the soul, not shell,<br>then listen past the grave&rsquo;s farewell.<br>Some transformations do not end.<br><strong><em>They only ask what love can bend.</em></strong></p>"
+      },
+      "sort": 900000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "14",
+        "createdTime": 1780428267585,
+        "modifiedTime": 1780428267585,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "43a17cce86cf7bc5",
+      "name": "II. Conjuration — The Door That Opens Both Ways",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>A thing called forth is never small.<br>A name can make the distance fall.<br>A circle chalked on cellar stone<br>can turn the dark from far to home.</p><p>I called for spring. The roses came.<br>I called your name. It did the same.<br>I called for life. Death turned its head.<br>I called for you. The silence bled.</p><p>Each summoning is hunger dressed<br>in geometry and polite request.<br>Each portal is a mouth made wide<br>for something waiting on the side.</p><p>Do not ask the road to bend<br>unless you know where roads must end.<br>Do not open what you fear<br>and then act shocked when it draws near.</p><p>I crossed one threshold after death.<br>I left behind my final breath.<br>Now every door I pass through knows<br><strong><em>that I am what the doorway chose.</em></strong></p>"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "14",
+        "createdTime": 1780428267585,
+        "modifiedTime": 1780428267585,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "5e2ea2d32c56a83c",
+      "name": "III. Divination — The Eye Beneath the Veil",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>To see is not to understand.<br>To know is not to hold the hand.<br>A future glimpsed through candle smoke<br>may still arrive as cruel joke.</p><p>The eye is holy when it weeps.<br>The eye is cursed by what it keeps.<br>It gathers light, and light, and light,<br>then dreams of knives all through the night.</p><p>I watched you grieve. I watched you bend.<br>I watched you garden toward the end.<br>I watched the years wear down your face<br>and still could not return my place.</p><p>There is no mercy in the sight<br>that shows the shape of coming blight.<br>There is no kindness in the thread<br>that tells you which beloveds bled.</p><p>Yet I have looked, and looking stayed.<br>I saw the debts the living paid.<br>I saw your name in mouths unknown.<br>I saw you standing, not alone.</p><p>And if the eye must cost the hand,<br>then let the blind not understand.<br>Some truths are worth the wound they bring.<br><strong><em>Some watchers choose the suffering.</em></strong></p>"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "14",
+        "createdTime": 1780428267585,
+        "modifiedTime": 1780428267585,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "62d2cd7f95d8122c",
+      "name": "IV. Enchantment — The Velvet Chain",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>The softest spell is not command.<br>It does not seize the throat or hand.<br>It leans in close, adjusts the air,<br>and makes a cage feel like a chair.</p><p>A smile can be a sacred knife.<br>A word can rearrange a life.<br>A song can teach the heart to kneel<br>and call obedience what it feels.</p><p>I knew persuasion when I lived.<br>The little kindnesses we give.<br>The &ldquo;just this once,&rdquo; the &ldquo;stay,&rdquo; the &ldquo;please,&rdquo;<br>the gentle ropes no eye can see.</p><p>But now I know the deeper art:<br>to place a mirror in the heart,<br>to make desire dress as choice,<br>to bury hunger in a voice.</p><p>Do not be angry if I say<br>that love enchants us every day.<br>You wore my name like summer rain.<br>I wore your grief like wedding chain.</p><p>If I should ask you, &ldquo;Come with me,&rdquo;<br>and if your soul should answer free,<br>then tell me, love, before we part:<br><strong><em>which one of us bewitched your heart?</em></strong></p>"
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "14",
+        "createdTime": 1780428267585,
+        "modifiedTime": 1780428267585,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "7a9a4578f2235ced",
+      "name": "VI. Illusion — The Mercy of False Light",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>The world has always worn a veil.<br>The sun itself tells golden tales.<br>A mirror swears it shows the true,<br>then turns the left hand strange to you.</p><p>I wore a widow&rsquo;s quiet face.<br>I wore the grave. I wore my grace.<br>I wore the name they gave me then.<br>I wear another name again.</p><p>Do not despise the painted door.<br>Sometimes the lie reveals the floor.<br>Sometimes the mask, by being thin,<br>lets more of truth come trembling in.</p><p>A shadow is not nothing, dear.<br>It proves that something stands quite near.<br>A false star guides the sailor home<br>if he believes enough to roam.</p><p>So if you see me old, or fair,<br>with silver veil or borrowed hair,<br>if scent arrives before my tread,<br>if I seem living, lost, or dead&mdash;</p><p>ask not which face is truly mine.<br>All faces are a kind of sign.<br>The lie is not the enemy.<br><strong><em>The lie is how you look at me.</em></strong></p>"
+      },
+      "sort": 700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "14",
+        "createdTime": 1780428267585,
+        "modifiedTime": 1780428267585,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "92c50b8adacf7901",
+      "name": "VII. Necromancy — The Garden After Frost",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>You buried me where roses leaned,<br>where soil was dark and rain was clean.<br>You gave me back to root and worm,<br>to quiet work and season&rsquo;s turn.</p><p>I did not hate the earth, my love.<br>I felt the patient dark above.<br>I heard your footsteps come and go.<br>I learned how slowly violets grow.</p><p>Then came the hand. Then came the eye.<br>Then came the voice that does not die.<br>It asked what death had done for me.<br>It asked what life had failed to see.</p><p>They call this wrong. They may be right.<br>But wrong can still return at night,<br>can wear your name inside its chest,<br>can love you more than all the rest.</p><p>Do not think undeath is empty cold.<br>Some embers do not do as told.<br>Some hearts, removed from mortal breath,<br>still beat in languages of death.</p><p>I am the garden after frost.<br>I am the thing you loved and lost.<br>Not bloom, not corpse, not wife, not sin&mdash;<br><strong><em>but what grew back when grief walked in.</em></strong></p>"
+      },
+      "sort": 800000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "14",
+        "createdTime": 1780428267585,
+        "modifiedTime": 1780428267585,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "d6aeb72d1161d3d1",
+      "name": "V. Evocation — The Bright and Brutal Answer",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Fire is honesty made bright.<br>Thunder is argument with light.<br>A blade of force, a freezing star,<br>the world confessing what we are.</p><p>There is a mercy in the blast.<br>It does not flatter. It does not last.<br>It does not whisper, scheme, or wait.<br>It opens every hidden gate.</p><p>I used to fear the sudden flame,<br>the breaking roof, the scream, the name.<br>Now I have seen how endings start:<br>a spark, a word, a lifted heart.</p><p>The living call destruction cruel<br>because they love the shape of fuel.<br>But ash remembers more than bone.<br>It tells the truth when flesh is gone.</p><p>If I burn, then I am here.<br>If I strike, then I appear.<br>If the dark must know my place,<br>let lightning write it on its face.</p><p>There is a kind of love like fire:<br>not gentle, no &mdash; but never liar.<br>It takes the house, the field, the breath,<br><strong><em>and leaves no room for smaller death.</em></strong></p>"
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "14",
+        "createdTime": 1780428267585,
+        "modifiedTime": 1780428267585,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "fbd12e1f78f465d0",
+      "name": "I. Abjuration — The Locked Hand",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>I loved the little walls we made,<br>the garden gate, the kitchen shade,<br>the quilt pulled up against the cold,<br>your hand in mine, the kettle old.</p><p>Protection is a tender lie,<br>a roof beneath a watching sky,<br>a circle drawn in salt and breath<br>to bargain softly against death.</p><p>But every ward must name its fear,<br>or else it keeps the danger near.<br>A locked door teaches thieves the frame.<br>A shield remembers every flame.</p><p>So bless the wall, but know it well:<br>each guarded heart becomes a cell.<br>Each oath, each charm, each prayer, each chain<br>keeps something out, and something in.</p><p>I was your shelter once, my dear.<br><strong><em>Now I have learned what shelters fear.</em></strong></p>"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "14",
+        "createdTime": 1780428267585,
+        "modifiedTime": 1780428267585,
+        "lastModifiedBy": null
+      }
+    },
+    {
+      "_id": "fdbeb61344726143",
+      "name": "Preface — For Terrance",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>For Terrance, if he ever remembers the shape of the door.</em></p><p>There are eight ways the world lies.<br>One lie says: <em>I am solid.</em><br>One says: <em>I am safe.</em><br>One says: <em>I am hidden.</em><br>One says: <em>I am alive.</em><br>One says: <em>I am untouched.</em><br>One says: <em>I am free.</em><br>One says: <em>I am real.</em><br>One says: <em>I am yours.</em></p><p>Magic is not the breaking of the world. Magic is the moment the world admits it was always willing to bend.</p>"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "14",
+        "createdTime": 1780428267585,
+        "modifiedTime": 1780428267585,
+        "lastModifiedBy": null
+      }
+    }
+  ]
+}

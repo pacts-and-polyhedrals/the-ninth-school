@@ -1,0 +1,67 @@
+{
+  "_id": "908c858962091e20",
+  "name": "Channel Divinity: Brand of the Hidden Eye",
+  "type": "feat",
+  "img": "icons/sundries/books/book-symbol-eye-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>As a Magic action, mark a creature within 60 feet for 1 minute. You know the direction to the marked creature while it is on the same plane, and the first time each turn you hit it with a weapon attack, you may deal extra psychic damage equal to your Charisma modifier.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Vecna-Warped Arcana",
+      "book": "Vecna-Warped Arcana",
+      "page": "",
+      "license": "",
+      "rules": "2024"
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Paladin: Oath of Forbidden Secrets",
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "max": "1",
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": "3"
+    },
+    "properties": [],
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "the-ninth-school": {
+      "slug": "channel-divinity-brand-of-the-hidden-eye"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14",
+    "createdTime": 1780423279552,
+    "modifiedTime": 1780423279552,
+    "lastModifiedBy": null
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "_id": "7d25fd24f7a92365",
+  "name": "Domain Spells: Whispered Agony",
+  "type": "feat",
+  "img": "icons/sundries/books/book-symbol-eye-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>You always have the following spells prepared when you reach the cleric levels listed: 3rd, <em>dissonant whispers</em> and <em>inflict wounds</em>; 5th, <em>detect thoughts</em> and <em>hold person</em>; 9th, <em>bestow curse</em> and <em>fear</em>; 13th, <em>blight</em> and <em>confusion</em>; 17th, <em>geas</em> and <em>synaptic static</em>.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Vecna-Warped Arcana",
+      "book": "Vecna-Warped Arcana",
+      "page": "",
+      "license": "",
+      "rules": "2024"
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Cleric: Whispered Agony Domain",
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "recovery": []
+    },
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": "3"
+    },
+    "properties": [],
+    "activation": {
+      "type": "none",
+      "cost": null,
+      "condition": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "the-ninth-school": {
+      "slug": "domain-spells-whispered-agony"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14",
+    "createdTime": 1780423279552,
+    "modifiedTime": 1780423279552,
+    "lastModifiedBy": null
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "the-ninth-school",
+  "title": "The Ninth School",
+  "description": "A D&D 5e content module for Foundry VTT v12–v14. Contains the School of Orthogenesis wizard subclass, Cleric Domain: Whispered Agony, Paladin Oath: Forbidden Secrets, all associated spells and class features, the complete Diane Clearwater bestiary (CR 1/2 to CR 21), the Eight Doors of Knowing poem collection, and full GM lore. Created by DM Asmo of Pacts and Polyhedrals.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "DM Asmo",
+      "url": "https://github.com/pacts-and-polyhedrals",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "14",
+    "maximum": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "3.3.0",
+          "verified": "5.3.3"
+        }
+      }
+    ]
+  },
+  "scripts": ["scripts/the-ninth-school.mjs"],
+  "styles": ["styles/the-ninth-school.css"],
+  "packs": [
+    {
+      "name": "actors",
+      "label": "The Ninth School — Bestiary",
+      "path": "packs/actors",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {"PLAYER": "OBSERVER", "ASSISTANT": "OWNER"},
+      "flags": {}
+    },
+    {
+      "name": "subclasses-and-features",
+      "label": "The Ninth School — Subclasses & Features",
+      "path": "packs/subclasses-and-features",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {"PLAYER": "OBSERVER", "ASSISTANT": "OWNER"},
+      "flags": {}
+    },
+    {
+      "name": "spells",
+      "label": "The Ninth School — Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {"PLAYER": "OBSERVER", "ASSISTANT": "OWNER"},
+      "flags": {}
+    },
+    {
+      "name": "lore",
+      "label": "The Ninth School — Lore & GM Notes",
+      "path": "packs/lore",
+      "type": "JournalEntry",
+      "ownership": {"PLAYER": "OBSERVER", "ASSISTANT": "OWNER"},
+      "flags": {}
+    }
+  ],
+  "packFolders": [],
+  "url": "https://github.com/pacts-and-polyhedrals/the-ninth-school",
+  "manifest": "https://raw.githubusercontent.com/pacts-and-polyhedrals/the-ninth-school/main/module.json",
+  "download": "https://github.com/pacts-and-polyhedrals/the-ninth-school/releases/download/v1.0.0/the-ninth-school-v1.0.0.zip",
+  "changelog": "https://github.com/pacts-and-polyhedrals/the-ninth-school/blob/main/CHANGELOG.md",
+  "license": "Homebrew content for private table use. D&D, Foundry VTT, and Vecna are trademarks of their respective rights holders."
+}

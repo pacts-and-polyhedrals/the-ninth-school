@@ -1,0 +1,91 @@
+{
+  "_id": "e824d937be0906ce",
+  "name": "Needle Psalm",
+  "type": "spell",
+  "img": "modules/the-ninth-school/assets/artwork/spell-icons/needle-psalm.png",
+  "system": {
+    "description": "<p>You recite a prayer that threads pain through memory. One creature within range takes 2d6 psychic damage on a failed Wisdom saving throw, or half as much on a success. If the target fails, it has disadvantage on the next Wisdom saving throw it makes before the end of your next turn.</p><p><em>At Higher Levels:</em> The damage increases by 1d6 for each spell slot level above 1st.</p>",
+    "source": {
+      "custom": "Vecna-Warped Arcana",
+      "book": "Vecna-Warped Arcana",
+      "page": "",
+      "license": "",
+      "rules": "2024"
+    },
+    "level": 1,
+    "school": "enc",
+    "properties": [],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "activities": {},
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": "60 ft",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "recovery": []
+    },
+    "ability": "",
+    "actionType": "save",
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "the-ninth-school": {
+      "slug": "needle-psalm"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14",
+    "createdTime": 1780423279561,
+    "modifiedTime": 1780423279561,
+    "lastModifiedBy": null
+  }
+}

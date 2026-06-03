@@ -1,0 +1,569 @@
+{
+  "_id": "f6674987eaffb555",
+  "name": "Vine Wraith",
+  "type": "npc",
+  "img": "modules/the-ninth-school/assets/artwork/book-art/vine-wraith.png",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 6,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "dex": {
+        "value": 16,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "con": {
+        "value": 16,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "int": {
+        "value": 12,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "wis": {
+        "value": 14,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "cha": {
+        "value": 15,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 13,
+        "calc": "flat",
+        "formula": ""
+      },
+      "hp": {
+        "value": 97,
+        "max": 97,
+        "temp": null,
+        "tempmax": null,
+        "formula": "13d8 + 39"
+      },
+      "init": {
+        "ability": "",
+        "bonus": ""
+      },
+      "movement": {
+        "burrow": null,
+        "climb": null,
+        "fly": 60,
+        "swim": null,
+        "walk": null,
+        "units": "ft",
+        "hover": true
+      },
+      "senses": {
+        "darkvision": 60,
+        "blindsight": null,
+        "tremorsense": null,
+        "truesight": null,
+        "units": "ft",
+        "special": "darkvision 60 ft, passive Perception 12"
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "<div class=\"page\" id=\"page-vine-wraith\">\n  <div class=\"page-header\">\n    <div class=\"page-eyebrow\">Undead / Plant · Skirmisher · CR 7 · XP 2,900</div>\n    <div class=\"page-title\">Vine Wraith</div>\n    <div class=\"page-subtitle\">A wraith rebuilt with living vine threading its necrotic form — semi-transparent, geometrically perfect, deeply wrong</div>\n  </div>\n  <div class=\"lore-box\"><p>\"A shadow is not nothing, dear. It proves that something stands quite near.\" — from Illusion, The Eight Doors of Knowing</p></div>\n  <div class=\"stat-block\">\n    <div class=\"sb-head\">\n      <div class=\"sb-name\">Vine Wraith</div>\n      <div class=\"sb-type\">Medium undead (plant), neutral evil</div>\n      <div style=\"margin-top:8px;display:flex;gap:6px;flex-wrap:wrap\">\n        <span class=\"tag\">CR 7</span><span class=\"tag\">2,900 XP</span><span class=\"tag tag-purple\">Wraith / Plant</span>\n      </div>\n    </div>\n    <div class=\"sb-body\">\n      <div class=\"attr-row\">\n        <div class=\"attr\"><div class=\"attr-label\">Armor Class</div><div class=\"attr-val\">13</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Hit Points</div><div class=\"attr-val\">97 (13d8 + 39)</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Speed</div><div class=\"attr-val\">0 ft, fly 60 ft (hover)</div></div>\n      </div>\n      <div class=\"core-stats\">\n        <div class=\"core-stat\"><div class=\"cs-label\">STR</div><div class=\"cs-val\">6</div><div class=\"cs-mod\">(–2)</div></div>\n        <div class=\"core-stat\"><div class=\"cs-label\">DEX</div><div class=\"cs-val\">16</div><div class=\"cs-mod\">(+3)</div></div>\n        <div class=\"core-stat\"><div class=\"cs-label\">CON</div><div class=\"cs-val\">16</div><div class=\"cs-mod\">(+3)</div></div>\n        <div class=\"core-stat\"><div class=\"cs-label\">INT</div><div class=\"cs-val\">12</div><div class=\"cs-mod\">(+1)</div></div>\n        <div class=\"core-stat\"><div class=\"cs-label\">WIS</div><div class=\"cs-val\">14</div><div class=\"cs-mod\">(+2)</div></div>\n        <div class=\"core-stat\"><div class=\"cs-label\">CHA</div><div class=\"cs-val\">15</div><div class=\"cs-mod\">(+2)</div></div>\n      </div>\n      <div class=\"attr-row\">\n        <div class=\"attr\"><div class=\"attr-label\">Damage Resistances</div><div class=\"attr-val\">acid, cold, fire, lightning, thunder; bludgeoning, piercing, slashing from nonmagical weapons that aren't silvered</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Damage Immunities</div><div class=\"attr-val\">necrotic, poison</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Damage Vulnerabilities</div><div class=\"attr-val\">radiant, slashing (vine component)</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Condition Immunities</div><div class=\"attr-val\">charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Senses</div><div class=\"attr-val\">darkvision 60 ft, passive Perception 12</div></div>\n      </div>\n      <div class=\"rule\"></div>\n      <div class=\"section-head\">Special Traits</div>\n      <div class=\"trait\"><div class=\"trait-name\">Incorporeal Movement</div><p class=\"trait-desc\">The vine wraith can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object. It cannot pass through warded areas or anti-magic fields.</p></div>\n      <div class=\"trait\"><div class=\"trait-name\">Sunlight Sensitivity</div><p class=\"trait-desc\">While in sunlight, the vine wraith has disadvantage on attack rolls as well as on Wisdom (Perception) checks that rely on sight.</p></div>\n      <div class=\"trait\"><div class=\"trait-name\">Vine Tether</div><p class=\"trait-desc\">When the vine wraith passes through a creature, that creature must succeed on a DC 14 Constitution saving throw or be tethered by spectral vines until the start of the wraith's next turn. A tethered creature's speed is halved and it cannot benefit from the Dash action.</p></div>\n      <div class=\"rule\"></div>\n      <div class=\"section-head\">Actions</div>\n      <div class=\"action\"><div class=\"action-name\">Multiattack</div><p class=\"action-desc\">The vine wraith makes two Life Drain attacks.</p></div>\n      <div class=\"action\"><div class=\"action-name\">Life Drain</div><p class=\"action-desc\"><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft, one creature. <em>Hit:</em> 21 (4d8 + 3) necrotic damage. The target must succeed on a DC 14 Constitution saving throw or its hit point maximum is reduced by the damage dealt until it finishes a long rest. A target reduced to 0 hit points by this attack dies.</p></div>\n      <div class=\"action\"><div class=\"action-name\">Create Specter</div><p class=\"action-desc\">The vine wraith targets a humanoid within 10 ft that died in the last minute. That humanoid's spirit rises as a Specter (see Monster Manual) under Diane Clearwater's control. The specter's form shows faint vine threading through its translucent body.</p></div>\n      <div class=\"action\"><div class=\"action-name\">Illusion of Nature <em>(1/day)</em></div><p class=\"action-desc\">The vine wraith casts major image (no concentration required) of a tranquil natural scene — a forest glade, a riverside, a garden. Creatures that succeed on a DC 14 Investigation check realize the scene is false. Creatures that fail become convinced they are safe and must succeed on a DC 14 Wisdom save to take hostile action while in the illusion's area.</p></div>\n    </div>\n  </div>\n</div>",
+        "public": ""
+      },
+      "alignment": "neutral evil",
+      "race": null,
+      "type": {
+        "value": "undead",
+        "subtype": "plant",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 7,
+      "xp": {
+        "value": 2900
+      },
+      "source": {
+        "custom": "Vecna-Warped Arcana",
+        "book": "Diane Clearwater Bestiary Compendium",
+        "page": "",
+        "license": "",
+        "rules": "2024"
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [
+          "necrotic",
+          "poison"
+        ],
+        "custom": "necrotic, poison"
+      },
+      "dr": {
+        "value": [
+          "acid",
+          "cold",
+          "fire",
+          "lightning",
+          "thunder",
+          "bludgeoning",
+          "piercing",
+          "slashing",
+          "slashing"
+        ],
+        "custom": "acid, cold, fire, lightning, thunder; bludgeoning, piercing, slashing from nonmagical weapons that aren't silvered"
+      },
+      "dv": {
+        "value": [
+          "radiant",
+          "slashing"
+        ],
+        "custom": "radiant, slashing"
+      },
+      "ci": {
+        "value": [
+          "charmed",
+          "exhaustion",
+          "grappled",
+          "paralyzed",
+          "petrified",
+          "poisoned",
+          "prone",
+          "restrained"
+        ],
+        "custom": "charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained"
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {},
+    "spells": {},
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": 0,
+        "initiative": 20
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "0a3ffeac3af47b54",
+      "name": "Incorporeal Movement",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>The vine wraith can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object. It cannot pass through warded areas or anti-magic fields.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "none",
+          "cost": null,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Vine Wraith"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "5e61b3417cd23acb",
+      "name": "Sunlight Sensitivity",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>While in sunlight, the vine wraith has disadvantage on attack rolls as well as on Wisdom (Perception) checks that rely on sight.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "none",
+          "cost": null,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Vine Wraith"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "7ab37ba8ef63c07e",
+      "name": "Vine Tether",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>When the vine wraith passes through a creature, that creature must succeed on a DC 14 Constitution saving throw or be tethered by spectral vines until the start of the wraith's next turn. A tethered creature's speed is halved and it cannot benefit from the Dash action.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "none",
+          "cost": null,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Vine Wraith"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "44583d81b8db02aa",
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>The vine wraith makes two Life Drain attacks.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Vine Wraith"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "0bd4207ad3fceadf",
+      "name": "Life Drain",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft, one creature. <em>Hit:</em> 21 (4d8 + 3) necrotic damage. The target must succeed on a DC 14 Constitution saving throw or its hit point maximum is reduced by the damage dealt until it finishes a long rest. A target reduced to 0 hit points by this attack dies.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Vine Wraith"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "588f9a3ee1db360f",
+      "name": "Create Specter",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>The vine wraith targets a humanoid within 10 ft that died in the last minute. That humanoid's spirit rises as a Specter (see Monster Manual) under Diane Clearwater's control. The specter's form shows faint vine threading through its translucent body.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Vine Wraith"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "91e040151e7a3c53",
+      "name": "Illusion of Nature",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>The vine wraith casts major image (no concentration required) of a tranquil natural scene &mdash; a forest glade, a riverside, a garden. Creatures that succeed on a DC 14 Investigation check realize the scene is false. Creatures that fail become convinced they are safe and must succeed on a DC 14 Wisdom save to take hostile action while in the illusion's area.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Vine Wraith"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Vine Wraith",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/the-ninth-school/assets/artwork/token-art/vine-wraith-token.png",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    }
+  },
+  "flags": {
+    "the-ninth-school": {
+      "sourcePage": "vine-wraith"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14",
+    "createdTime": 1780423740914,
+    "modifiedTime": 1780423740914,
+    "lastModifiedBy": null
+  }
+}

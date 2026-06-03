@@ -1,0 +1,39 @@
+/* ============================================================
+   The Ninth School — Foundry VTT Module v1.0.0
+   DM Asmo / Pacts and Polyhedrals
+   ============================================================ */
+
+/* ── Doctrine reveal chat card ── */
+.ninth-school-doctrine-reveal {
+  border-left: 3px solid #6b4a1a;
+  padding: 0.5rem 0.875rem;
+  background: rgba(16, 10, 5, 0.08);
+}
+
+.ninth-school-doctrine-reveal ol {
+  margin: 0.5rem 0 0.5rem 1.25rem;
+  color: #c9922a;
+  font-style: italic;
+}
+
+/* ── Lore journal styling ── */
+.journal-entry-page .editor-content blockquote {
+  border-left: 3px solid #6b4a1a;
+  padding-left: 0.875rem;
+  color: #7a5e30;
+  font-style: italic;
+}
+
+/* ── Orthogenic mark header button ── */
+.ninth-school-orthogenic-mark i {
+  color: #5a3a10;
+}
+
+.ninth-school-orthogenic-mark:hover i {
+  color: #c9922a;
+}
+
+/* ── Compendium pack — stat block description formatting ── */
+.window-content .editor-content strong {
+  color: var(--color-text-dark-primary);
+}

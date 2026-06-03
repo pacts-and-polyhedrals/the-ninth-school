@@ -1,0 +1,91 @@
+{
+  "_id": "89f04d315c2cffb3",
+  "name": "Orthogenic Plague",
+  "type": "spell",
+  "img": "modules/the-ninth-school/assets/artwork/spell-icons/orthogenic-plague.png",
+  "system": {
+    "description": "<p>You release a self-replicating orthogenic organism into a target creature. The organism rewrites the target's cellular structure, dealing 4d10 necrotic per round for 1 minute (Con save each round to end). Creatures slain by this spell rise as Orthogenic Zombies under your control &mdash; plant matter threading their bones, moving with unsettling symmetry. They retain no memories but maintain their combat statistics.</p><p><em>At 8th level: Damage increases to 5d10. At 9th: 6d10 and the save DC increases by 2.</em></p>",
+    "source": {
+      "custom": "Vecna-Warped Arcana",
+      "book": "Vecna-Warped Arcana",
+      "page": "",
+      "license": "",
+      "rules": "2024"
+    },
+    "level": 7,
+    "school": "nec",
+    "properties": [],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "activities": {},
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": "120 ft",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "recovery": []
+    },
+    "ability": "",
+    "actionType": "save",
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "the-ninth-school": {
+      "slug": "orthogenic-plague"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14",
+    "createdTime": 1780423279561,
+    "modifiedTime": 1780423279561,
+    "lastModifiedBy": null
+  }
+}

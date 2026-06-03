@@ -1,0 +1,605 @@
+{
+  "_id": "e055bde7b48f5e94",
+  "name": "Rootwight Enforcer",
+  "type": "npc",
+  "img": "modules/the-ninth-school/assets/artwork/book-art/rootwight-enforcer.png",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 18,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "dex": {
+        "value": 14,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "con": {
+        "value": 18,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "int": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "wis": {
+        "value": 13,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "cha": {
+        "value": 8,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 16,
+        "calc": "flat",
+        "formula": ""
+      },
+      "hp": {
+        "value": 136,
+        "max": 136,
+        "temp": null,
+        "tempmax": null,
+        "formula": "16d8 + 64"
+      },
+      "init": {
+        "ability": "",
+        "bonus": ""
+      },
+      "movement": {
+        "burrow": null,
+        "climb": 20,
+        "fly": null,
+        "swim": null,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 60,
+        "blindsight": null,
+        "tremorsense": 30,
+        "truesight": null,
+        "units": "ft",
+        "special": "darkvision 60 ft, tremorsense 30 ft, passive Perception 15"
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "<div class=\"page\" id=\"page-rootwight\">\n  <div class=\"page-header\">\n    <div class=\"page-eyebrow\">Undead / Plant · Elite Melee · CR 9 · XP 5,000</div>\n    <div class=\"page-title\">Rootwight Enforcer</div>\n    <div class=\"page-subtitle\">A wight rebuilt with orthogenic root-threading through its skeleton — Diane's preferred personal guard</div>\n  </div>\n  <div class=\"lore-box\"><p>\"The wight was adequate. The roots gave it purpose. The geometric threading gave it precision. Now it is correct.\" — D.C.</p></div>\n  <div class=\"stat-block\">\n    <div class=\"sb-head\">\n      <div class=\"sb-name\">Rootwight Enforcer</div>\n      <div class=\"sb-type\">Medium undead (plant), neutral evil</div>\n      <div style=\"margin-top:8px;display:flex;gap:6px;flex-wrap:wrap\">\n        <span class=\"tag\">CR 9</span><span class=\"tag\">5,000 XP</span><span class=\"tag tag-green\">Undead / Plant</span>\n      </div>\n    </div>\n    <div class=\"sb-body\">\n      <div class=\"attr-row\">\n        <div class=\"attr\"><div class=\"attr-label\">Armor Class</div><div class=\"attr-val\">16 (natural armor + root plating)</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Hit Points</div><div class=\"attr-val\">136 (16d8 + 64)</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Speed</div><div class=\"attr-val\">30 ft, climb 20 ft</div></div>\n      </div>\n      <div class=\"core-stats\">\n        <div class=\"core-stat\"><div class=\"cs-label\">STR</div><div class=\"cs-val\">18</div><div class=\"cs-mod\">(+4)</div></div>\n        <div class=\"core-stat\"><div class=\"cs-label\">DEX</div><div class=\"cs-val\">14</div><div class=\"cs-mod\">(+2)</div></div>\n        <div class=\"core-stat\"><div class=\"cs-label\">CON</div><div class=\"cs-val\">18</div><div class=\"cs-mod\">(+4)</div></div>\n        <div class=\"core-stat\"><div class=\"cs-label\">INT</div><div class=\"cs-val\">10</div><div class=\"cs-mod\">(+0)</div></div>\n        <div class=\"core-stat\"><div class=\"cs-label\">WIS</div><div class=\"cs-val\">13</div><div class=\"cs-mod\">(+1)</div></div>\n        <div class=\"core-stat\"><div class=\"cs-label\">CHA</div><div class=\"cs-val\">8</div><div class=\"cs-mod\">(–1)</div></div>\n      </div>\n      <div class=\"attr-row\">\n        <div class=\"attr\"><div class=\"attr-label\">Saving Throws</div><div class=\"attr-val\">Str +8, Con +8, Wis +5</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Skills</div><div class=\"attr-val\">Perception +5, Stealth +6</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Damage Resistances</div><div class=\"attr-val\">necrotic; bludgeoning, piercing, slashing from nonmagical weapons that aren't silvered</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Damage Vulnerabilities</div><div class=\"attr-val\">fire (from plant component)</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Condition Immunities</div><div class=\"attr-val\">exhaustion, poisoned</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Senses</div><div class=\"attr-val\">darkvision 60 ft, tremorsense 30 ft (while in contact with ground), passive Perception 15</div></div>\n      </div>\n      <div class=\"rule\"></div>\n      <div class=\"section-head\">Special Traits</div>\n      <div class=\"trait\"><div class=\"trait-name\">Root Regeneration</div><p class=\"trait-desc\">If the rootwight starts its turn in contact with earth, soil, or plant matter, it regains 10 hit points at the start of its turn, provided it has at least 1 hit point. Fire damage suppresses this trait until the start of the rootwight's next turn.</p></div>\n      <div class=\"trait\"><div class=\"trait-name\">Geometric Symmetry</div><p class=\"trait-desc\">The rootwight's form is unnaturally precise. When it makes melee attacks, it ignores half cover but not three-quarters cover. Creatures that witness the rootwight's movement must succeed on a DC 13 Wisdom save or be unsettled — they have disadvantage on their next saving throw against a druid or wizard spell this encounter (once per creature).</p></div>\n      <div class=\"trait\"><div class=\"trait-name\">Anti-Druidic Presence</div><p class=\"trait-desc\">A druid who attempts to use Speak with Plants or Commune with Nature within 30 ft of the rootwight must succeed on a DC 15 Wisdom save. On a failure, the spell fails and the slot is expended — the plants will not answer while the rootwight is present.</p></div>\n      <div class=\"rule\"></div>\n      <div class=\"section-head\">Actions</div>\n      <div class=\"action\"><div class=\"action-name\">Multiattack</div><p class=\"action-desc\">The rootwight makes two attacks: one with its Root Slam and one with its Life Drain or Entangling Strike.</p></div>\n      <div class=\"action\"><div class=\"action-name\">Root Slam</div><p class=\"action-desc\"><em>Melee Weapon Attack:</em> +8 to hit, reach 10 ft, one target. <em>Hit:</em> 15 (2d10 + 4) bludgeoning damage. If the target is Large or smaller, it must succeed on a DC 16 Strength save or be knocked prone.</p></div>\n      <div class=\"action\"><div class=\"action-name\">Life Drain</div><p class=\"action-desc\"><em>Melee Weapon Attack:</em> +8 to hit, reach 5 ft, one creature. <em>Hit:</em> 18 (4d8) necrotic damage. The target must succeed on a DC 16 Constitution saving throw or its hit point maximum is reduced by the damage dealt. This reduction lasts until the target finishes a long rest. The rootwight regains hit points equal to half the necrotic damage dealt.</p></div>\n      <div class=\"action\"><div class=\"action-name\">Entangling Strike <em>(Recharge 5–6)</em></div><p class=\"action-desc\"><em>Melee Weapon Attack:</em> +8 to hit, reach 15 ft, one target. <em>Hit:</em> 11 (2d6 + 4) piercing damage and the target is restrained by roots (escape DC 16 Strength). While restrained this way, the target takes 9 (2d8) necrotic damage at the start of each of its turns as the roots feed.</p></div>\n      <div class=\"action\"><div class=\"action-name\">Create Rootwight Spawn</div><p class=\"action-desc\">A humanoid slain by the rootwight's Life Drain and left in contact with earth for 1 hour rises as an Orchard Zombie under Diane Clearwater's control.</p></div>\n    </div>\n  </div>\n</div>",
+        "public": ""
+      },
+      "alignment": "neutral evil",
+      "race": null,
+      "type": {
+        "value": "undead",
+        "subtype": "plant",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 9,
+      "xp": {
+        "value": 5000
+      },
+      "source": {
+        "custom": "Vecna-Warped Arcana",
+        "book": "Diane Clearwater Bestiary Compendium",
+        "page": "",
+        "license": "",
+        "rules": "2024"
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "necrotic",
+          "bludgeoning",
+          "piercing",
+          "slashing",
+          "slashing"
+        ],
+        "custom": "necrotic; bludgeoning, piercing, slashing from nonmagical weapons that aren't silvered"
+      },
+      "dv": {
+        "value": [
+          "fire"
+        ],
+        "custom": "fire"
+      },
+      "ci": {
+        "value": [
+          "exhaustion",
+          "poisoned"
+        ],
+        "custom": "exhaustion, poisoned"
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "prc": {
+        "value": 1
+      },
+      "ste": {
+        "value": 1
+      }
+    },
+    "spells": {},
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": 0,
+        "initiative": 20
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "f2638b5b53ac646f",
+      "name": "Root Regeneration",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>If the rootwight starts its turn in contact with earth, soil, or plant matter, it regains 10 hit points at the start of its turn, provided it has at least 1 hit point. Fire damage suppresses this trait until the start of the rootwight's next turn.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "none",
+          "cost": null,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Rootwight Enforcer"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "f72bf839ab225c05",
+      "name": "Geometric Symmetry",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>The rootwight's form is unnaturally precise. When it makes melee attacks, it ignores half cover but not three-quarters cover. Creatures that witness the rootwight's movement must succeed on a DC 13 Wisdom save or be unsettled &mdash; they have disadvantage on their next saving throw against a druid or wizard spell this encounter (once per creature).</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "none",
+          "cost": null,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Rootwight Enforcer"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "b3a659c3f16e73d4",
+      "name": "Anti-Druidic Presence",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>A druid who attempts to use Speak with Plants or Commune with Nature within 30 ft of the rootwight must succeed on a DC 15 Wisdom save. On a failure, the spell fails and the slot is expended &mdash; the plants will not answer while the rootwight is present.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "none",
+          "cost": null,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Rootwight Enforcer"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "5f12ffa66eff75a7",
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>The rootwight makes two attacks: one with its Root Slam and one with its Life Drain or Entangling Strike.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Rootwight Enforcer"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "7b1231d1cabd3658",
+      "name": "Root Slam",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +8 to hit, reach 10 ft, one target. <em>Hit:</em> 15 (2d10 + 4) bludgeoning damage. If the target is Large or smaller, it must succeed on a DC 16 Strength save or be knocked prone.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Rootwight Enforcer"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "da9f435fdb636dec",
+      "name": "Life Drain",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +8 to hit, reach 5 ft, one creature. <em>Hit:</em> 18 (4d8) necrotic damage. The target must succeed on a DC 16 Constitution saving throw or its hit point maximum is reduced by the damage dealt. This reduction lasts until the target finishes a long rest. The rootwight regains hit points equal to half the necrotic damage dealt.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Rootwight Enforcer"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "1730d2280d6864d3",
+      "name": "Entangling Strike",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +8 to hit, reach 15 ft, one target. <em>Hit:</em> 11 (2d6 + 4) piercing damage and the target is restrained by roots (escape DC 16 Strength). While restrained this way, the target takes 9 (2d8) necrotic damage at the start of each of its turns as the roots feed.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Rootwight Enforcer"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "e1209b4d56e974ad",
+      "name": "Create Rootwight Spawn",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>A humanoid slain by the rootwight's Life Drain and left in contact with earth for 1 hour rises as an Orchard Zombie under Diane Clearwater's control.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Rootwight Enforcer"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Rootwight Enforcer",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/the-ninth-school/assets/artwork/token-art/rootwight-enforcer-token.png",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    }
+  },
+  "flags": {
+    "the-ninth-school": {
+      "sourcePage": "rootwight"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14",
+    "createdTime": 1780423740911,
+    "modifiedTime": 1780423740911,
+    "lastModifiedBy": null
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_id": "0ecebda71f84d978",
+  "name": "School of Orthogenesis",
+  "type": "subclass",
+  "img": "icons/sundries/books/book-symbol-eye-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Orthogenists are wizards who reject the premise that the natural world is a thing to be worked with rather than rewritten. They reach to the living pattern beneath organic life and correct it. This subclass is a thematic foil to druids and nature-aligned characters.</p><p><strong>Doctrine:</strong> Contain the root. Bring the alien seed. Read the hidden pattern. Command the instinct. Burn the old growth. Dream the better form. Feed life with death. Fix the chosen shape.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Vecna-Warped Arcana",
+      "book": "Vecna-Warped Arcana",
+      "page": "",
+      "license": "",
+      "rules": "2024"
+    },
+    "identifier": "school-of-orthogenesis",
+    "classIdentifier": "wizard",
+    "advancement": [],
+    "advancementOrigin": null,
+    "type": {
+      "value": "subclass",
+      "subtype": ""
+    },
+    "requirements": "wizard",
+    "levels": 1
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "the-ninth-school": {
+      "slug": "school-of-orthogenesis"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14",
+    "createdTime": 1780423279552,
+    "modifiedTime": 1780423279552,
+    "lastModifiedBy": null
+  }
+}

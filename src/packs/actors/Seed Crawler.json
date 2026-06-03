@@ -1,0 +1,428 @@
+{
+  "_id": "750418dfc2d2b1fd",
+  "name": "Seed Crawler",
+  "type": "npc",
+  "img": "modules/the-ninth-school/assets/artwork/book-art/seed-crawler.png",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 4,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "dex": {
+        "value": 14,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "con": {
+        "value": 14,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "int": {
+        "value": 1,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "wis": {
+        "value": 6,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "cha": {
+        "value": 1,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 12,
+        "calc": "flat",
+        "formula": ""
+      },
+      "hp": {
+        "value": 13,
+        "max": 13,
+        "temp": null,
+        "tempmax": null,
+        "formula": "3d4 + 6"
+      },
+      "init": {
+        "ability": "",
+        "bonus": ""
+      },
+      "movement": {
+        "burrow": 10,
+        "climb": null,
+        "fly": null,
+        "swim": null,
+        "walk": 20,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": null,
+        "blindsight": 30,
+        "tremorsense": null,
+        "truesight": null,
+        "units": "ft",
+        "special": "blindsight 30 ft, passive Perception 8"
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "<div class=\"page\" id=\"page-seed-crawler\">\n  <div class=\"page-header\">\n    <div class=\"page-eyebrow\">Plant / Undead · Hazard · CR 1/2 · XP 100</div>\n    <div class=\"page-title\">Seed Crawler</div>\n    <div class=\"page-subtitle\">An orthogenic organism — not quite a creature, not quite a plant — that seeks flesh to germinate in</div>\n  </div>\n  <div class=\"lore-box\"><p>\"The alien seed is not a metaphor. I made it literal. You're welcome.\" — D.C., letter to an unnamed colleague, unsent</p></div>\n  <div class=\"stat-block\">\n    <div class=\"sb-head\">\n      <div class=\"sb-name\">Seed Crawler</div>\n      <div class=\"sb-type\">Tiny plant (undead), unaligned</div>\n      <div style=\"margin-top:8px;display:flex;gap:6px;flex-wrap:wrap\">\n        <span class=\"tag\">CR 1/2</span><span class=\"tag\">100 XP</span><span class=\"tag tag-green\">Hazard / Swarm</span>\n      </div>\n    </div>\n    <div class=\"sb-body\">\n      <div class=\"attr-row\">\n        <div class=\"attr\"><div class=\"attr-label\">Armor Class</div><div class=\"attr-val\">12</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Hit Points</div><div class=\"attr-val\">13 (3d4 + 6)</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Speed</div><div class=\"attr-val\">20 ft, burrow 10 ft</div></div>\n      </div>\n      <div class=\"core-stats\">\n        <div class=\"core-stat\"><div class=\"cs-label\">STR</div><div class=\"cs-val\">4</div><div class=\"cs-mod\">(–3)</div></div>\n        <div class=\"core-stat\"><div class=\"cs-label\">DEX</div><div class=\"cs-val\">14</div><div class=\"cs-mod\">(+2)</div></div>\n        <div class=\"core-stat\"><div class=\"cs-label\">CON</div><div class=\"cs-val\">14</div><div class=\"cs-mod\">(+2)</div></div>\n        <div class=\"core-stat\"><div class=\"cs-label\">INT</div><div class=\"cs-val\">1</div><div class=\"cs-mod\">(–5)</div></div>\n        <div class=\"core-stat\"><div class=\"cs-label\">WIS</div><div class=\"cs-val\">6</div><div class=\"cs-mod\">(–2)</div></div>\n        <div class=\"core-stat\"><div class=\"cs-label\">CHA</div><div class=\"cs-val\">1</div><div class=\"cs-mod\">(–5)</div></div>\n      </div>\n      <div class=\"attr-row\">\n        <div class=\"attr\"><div class=\"attr-label\">Skills</div><div class=\"attr-val\">Stealth +6</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Damage Resistances</div><div class=\"attr-val\">necrotic</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Condition Immunities</div><div class=\"attr-val\">blinded, charmed, deafened, exhaustion, frightened, poisoned</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Senses</div><div class=\"attr-val\">blindsight 30 ft, passive Perception 8</div></div>\n      </div>\n      <div class=\"rule\"></div>\n      <div class=\"section-head\">Special Traits</div>\n      <div class=\"trait\"><div class=\"trait-name\">Living Seed</div><p class=\"trait-desc\">The seed crawler exists to implant itself. It has no other drive. It does not eat, sleep, or die naturally — but will not survive more than 30 days without implanting in flesh.</p></div>\n      <div class=\"trait\"><div class=\"trait-name\">Spider Climb</div><p class=\"trait-desc\">The seed crawler can climb difficult surfaces, including upside-down on ceilings, without an ability check.</p></div>\n      <div class=\"section-head\">Actions</div>\n      <div class=\"action\"><div class=\"action-name\">Implant</div><p class=\"action-desc\"><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft, one creature. <em>Hit:</em> 2 (1d4) piercing damage and the seed crawler implants itself beneath the target's skin and dies. The implanted creature must succeed on a DC 13 Constitution save at the end of each long rest or suffer one level of exhaustion as the seed germinates. After 3 failed saves (cumulative), a Tiny orthogenic plant emerges from the target's skin (painlessly, per Diane's design), and the exhaustion ends. The plant is harmless and can be removed with a DC 12 Medicine check or any healing magic of 2nd level or higher. Diane can see through the plant if she is within 1 mile.</p></div>\n      <div class=\"action\"><div class=\"action-name\">Evasion (Reaction)</div><p class=\"action-desc\">When the seed crawler is targeted by an attack, it may use its reaction to move up to 10 ft without provoking opportunity attacks.</p></div>\n    </div>\n  </div>\n</div>",
+        "public": ""
+      },
+      "alignment": "unaligned",
+      "race": null,
+      "type": {
+        "value": "plant",
+        "subtype": "undead",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 0.5,
+      "xp": {
+        "value": 100
+      },
+      "source": {
+        "custom": "Vecna-Warped Arcana",
+        "book": "Diane Clearwater Bestiary Compendium",
+        "page": "",
+        "license": "",
+        "rules": "2024"
+      }
+    },
+    "traits": {
+      "size": "tiny",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "necrotic"
+        ],
+        "custom": "necrotic"
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "blinded",
+          "charmed",
+          "deafened",
+          "exhaustion",
+          "frightened",
+          "poisoned"
+        ],
+        "custom": "blinded, charmed, deafened, exhaustion, frightened, poisoned"
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "ste": {
+        "value": 2
+      }
+    },
+    "spells": {},
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": 0,
+        "initiative": 20
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "db40932ce9a2719e",
+      "name": "Living Seed",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>The seed crawler exists to implant itself. It has no other drive. It does not eat, sleep, or die naturally &mdash; but will not survive more than 30 days without implanting in flesh.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "none",
+          "cost": null,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Seed Crawler"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "75a936f39d9c4e36",
+      "name": "Spider Climb",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>The seed crawler can climb difficult surfaces, including upside-down on ceilings, without an ability check.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "none",
+          "cost": null,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Seed Crawler"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "44d804fbb2aca592",
+      "name": "Implant",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft, one creature. <em>Hit:</em> 2 (1d4) piercing damage and the seed crawler implants itself beneath the target's skin and dies. The implanted creature must succeed on a DC 13 Constitution save at the end of each long rest or suffer one level of exhaustion as the seed germinates. After 3 failed saves (cumulative), a Tiny orthogenic plant emerges from the target's skin (painlessly, per Diane's design), and the exhaustion ends. The plant is harmless and can be removed with a DC 12 Medicine check or any healing magic of 2nd level or higher. Diane can see through the plant if she is within 1 mile.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Seed Crawler"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "32b6a570d53874e1",
+      "name": "Evasion",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>When the seed crawler is targeted by an attack, it may use its reaction to move up to 10 ft without provoking opportunity attacks.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Seed Crawler"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Seed Crawler",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/the-ninth-school/assets/artwork/token-art/seed-crawler-token.png",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    }
+  },
+  "flags": {
+    "the-ninth-school": {
+      "sourcePage": "seed-crawler"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14",
+    "createdTime": 1780423740917,
+    "modifiedTime": 1780423740917,
+    "lastModifiedBy": null
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "_id": "16f1bee5d0da3834",
+  "name": "Arcane Correction",
+  "type": "feat",
+  "img": "icons/sundries/books/book-symbol-eye-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>Once per long rest, you reach into the living pattern of a willing creature or one that is incapacitated and make a permanent change to its biology. This alteration is not a curse and cannot be dispelled, counterspelled, or removed by <em>Dispel Magic</em> or <em>Remove Curse</em>.</p><p>You may grant darkvision, a natural weapon, resistance to one damage type, water breathing, or a climb or swim speed. You may remove a vulnerability, a racial trait, a sense, or the effects of a curse or disease by rewriting the body's response to it.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Vecna-Warped Arcana",
+      "book": "Vecna-Warped Arcana",
+      "page": "",
+      "license": "",
+      "rules": "2024"
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Wizard: School of Orthogenesis",
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "max": "1",
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": "14"
+    },
+    "properties": [],
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "the-ninth-school": {
+      "slug": "arcane-correction"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14",
+    "createdTime": 1780423279552,
+    "modifiedTime": 1780423279552,
+    "lastModifiedBy": null
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "ac9a3a82e6a23931",
+  "name": "The Orthogenesis Manuscript",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "the-ninth-school": {
+      "slug": "the-orthogenesis-manuscript"
+    }
+  },
+  "_stats": {
+    "systemId": null,
+    "systemVersion": null,
+    "coreVersion": "14",
+    "createdTime": 1780423279562,
+    "modifiedTime": 1780423279562,
+    "lastModifiedBy": null
+  },
+  "pages": []
+}

@@ -1,0 +1,93 @@
+{
+  "_id": "b073fd34c1c7204e",
+  "name": "Perfected Genesis",
+  "type": "spell",
+  "img": "modules/the-ninth-school/assets/artwork/spell-icons/perfected-genesis.png",
+  "system": {
+    "description": "<p>You create a new form of life. Design a creature of CR 10 or less. It may combine the traits of up to three existing creature types. It is alive, capable of reproduction, and fully loyal to you. It has its own will, memory, and name. It knows you created it. Whether it loves or resents you for this is determined by how you cast the spell &mdash; your state of mind during the ritual becomes part of the creature's psychology, woven into its pattern at the root. It cannot be magically compelled to betray you. But it can choose to.</p>",
+    "source": {
+      "custom": "Vecna-Warped Arcana",
+      "book": "Vecna-Warped Arcana",
+      "page": "",
+      "license": "",
+      "rules": "2024"
+    },
+    "level": 9,
+    "school": "",
+    "properties": [
+      "ritual"
+    ],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "activities": {},
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "8-hour ritual",
+      "units": "inst"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": "Touch",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "recovery": []
+    },
+    "ability": "",
+    "actionType": "util",
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "the-ninth-school": {
+      "slug": "perfected-genesis"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14",
+    "createdTime": 1780423279561,
+    "modifiedTime": 1780423279561,
+    "lastModifiedBy": null
+  }
+}

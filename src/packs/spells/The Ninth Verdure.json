@@ -1,0 +1,93 @@
+{
+  "_id": "4c87c06e2f8219c6",
+  "name": "The Ninth Verdure",
+  "type": "spell",
+  "img": "modules/the-ninth-school/assets/artwork/spell-icons/the-ninth-verdure.png",
+  "system": {
+    "description": "<p>You reshape an entire ecosystem from the root up. In a 10-mile radius, you permanently alter the natural world: choose six effects from the Ecosystem Override list; additionally, one species of plant or beast is permanently altered to bear the orthogenic mark (geometric symmetry, heightened intelligence equivalent to Int 6, and loyalty to you); all future druids who enter the region must succeed on a DC 22 Wisdom save or experience a crisis of faith about the nature of nature itself. This spell leaves a permanent signature visible to all Detect Magic, True Seeing, and Divine Sense within range. The Whispered One sees it too.</p>",
+    "source": {
+      "custom": "Vecna-Warped Arcana",
+      "book": "Vecna-Warped Arcana",
+      "page": "",
+      "license": "",
+      "rules": "2024"
+    },
+    "level": 9,
+    "school": "",
+    "properties": [
+      "ritual"
+    ],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "activities": {},
+    "activation": {
+      "type": "minute",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1 hour ritual",
+      "units": "inst"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": "10-mile radius",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "recovery": []
+    },
+    "ability": "",
+    "actionType": "util",
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "the-ninth-school": {
+      "slug": "the-ninth-verdure"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14",
+    "createdTime": 1780423279561,
+    "modifiedTime": 1780423279561,
+    "lastModifiedBy": null
+  }
+}

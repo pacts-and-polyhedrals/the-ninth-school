@@ -1,0 +1,464 @@
+{
+  "_id": "f9efe1449af924b9",
+  "name": "Orchard Zombie",
+  "type": "npc",
+  "img": "modules/the-ninth-school/assets/artwork/book-art/orchard-zombie.png",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 16,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "dex": {
+        "value": 6,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "con": {
+        "value": 17,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "int": {
+        "value": 3,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "wis": {
+        "value": 6,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "cha": {
+        "value": 5,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 10,
+        "calc": "flat",
+        "formula": ""
+      },
+      "hp": {
+        "value": 52,
+        "max": 52,
+        "temp": null,
+        "tempmax": null,
+        "formula": "7d8 + 21"
+      },
+      "init": {
+        "ability": "",
+        "bonus": ""
+      },
+      "movement": {
+        "burrow": null,
+        "climb": null,
+        "fly": null,
+        "swim": null,
+        "walk": 20,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 60,
+        "blindsight": null,
+        "tremorsense": null,
+        "truesight": null,
+        "units": "ft",
+        "special": "darkvision 60 ft, passive Perception 8"
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "<div class=\"page\" id=\"page-orchard-zombie\">\n  <div class=\"page-header\">\n    <div class=\"page-eyebrow\">Undead / Plant · Swarm Unit · CR 2 · XP 450</div>\n    <div class=\"page-title\">Orchard Zombie</div>\n    <div class=\"page-subtitle\">The standard unit of Diane's orthogenic force — a corpse threaded with roots and given purpose</div>\n  </div>\n  <div class=\"lore-box\"><p>\"Not bloom, not corpse, not wife, not sin — but what grew back when grief walked in.\" — from Necromancy, The Eight Doors of Knowing</p></div>\n  <div class=\"stat-block\">\n    <div class=\"sb-head\">\n      <div class=\"sb-name\">Orchard Zombie</div>\n      <div class=\"sb-type\">Medium undead (plant), neutral evil</div>\n      <div style=\"margin-top:8px;display:flex;gap:6px;flex-wrap:wrap\">\n        <span class=\"tag\">CR 2</span><span class=\"tag\">450 XP</span><span class=\"tag tag-green\">Standard Minion</span>\n      </div>\n    </div>\n    <div class=\"sb-body\">\n      <div class=\"attr-row\">\n        <div class=\"attr\"><div class=\"attr-label\">Armor Class</div><div class=\"attr-val\">10 (root-threaded bone)</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Hit Points</div><div class=\"attr-val\">52 (7d8 + 21)</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Speed</div><div class=\"attr-val\">20 ft</div></div>\n      </div>\n      <div class=\"core-stats\">\n        <div class=\"core-stat\"><div class=\"cs-label\">STR</div><div class=\"cs-val\">16</div><div class=\"cs-mod\">(+3)</div></div>\n        <div class=\"core-stat\"><div class=\"cs-label\">DEX</div><div class=\"cs-val\">6</div><div class=\"cs-mod\">(–2)</div></div>\n        <div class=\"core-stat\"><div class=\"cs-label\">CON</div><div class=\"cs-val\">17</div><div class=\"cs-mod\">(+3)</div></div>\n        <div class=\"core-stat\"><div class=\"cs-label\">INT</div><div class=\"cs-val\">3</div><div class=\"cs-mod\">(–4)</div></div>\n        <div class=\"core-stat\"><div class=\"cs-label\">WIS</div><div class=\"cs-val\">6</div><div class=\"cs-mod\">(–2)</div></div>\n        <div class=\"core-stat\"><div class=\"cs-label\">CHA</div><div class=\"cs-val\">5</div><div class=\"cs-mod\">(–3)</div></div>\n      </div>\n      <div class=\"attr-row\">\n        <div class=\"attr\"><div class=\"attr-label\">Saving Throws</div><div class=\"attr-val\">Wis +0</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Damage Immunities</div><div class=\"attr-val\">poison</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Damage Vulnerabilities</div><div class=\"attr-val\">fire</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Condition Immunities</div><div class=\"attr-val\">poisoned</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Senses</div><div class=\"attr-val\">darkvision 60 ft, passive Perception 8</div></div>\n      </div>\n      <div class=\"rule\"></div>\n      <div class=\"section-head\">Special Traits</div>\n      <div class=\"trait\"><div class=\"trait-name\">Undead Fortitude</div><p class=\"trait-desc\">If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.</p></div>\n      <div class=\"trait\"><div class=\"trait-name\">Corpse Orchard Anchor</div><p class=\"trait-desc\">Within 20 ft of a Corpse Orchard Node, the orchard zombie regains 3 hit points at the start of each of its turns.</p></div>\n      <div class=\"trait\"><div class=\"trait-name\">Geometric Form</div><p class=\"trait-desc\">The root threading through the zombie's form is precise and symmetrical. Animals will not willingly approach within 30 ft of an orchard zombie.</p></div>\n      <div class=\"rule\"></div>\n      <div class=\"section-head\">Actions</div>\n      <div class=\"action\"><div class=\"action-name\">Slam</div><p class=\"action-desc\"><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft, one target. <em>Hit:</em> 8 (1d10 + 3) bludgeoning damage plus 4 (1d8) necrotic damage (from root contact).</p></div>\n      <div class=\"action\"><div class=\"action-name\">Root Burst <em>(1/day)</em></div><p class=\"action-desc\">The zombie erupts roots in a 10-ft radius. Each creature in the area must succeed on a DC 13 Strength save or be restrained for 1 minute. At the start of each of its turns, a restrained creature takes 4 (1d8) necrotic damage. The zombie dies immediately after using this action (its structural integrity is consumed).</p></div>\n    </div>\n  </div>\n</div>",
+        "public": ""
+      },
+      "alignment": "neutral evil",
+      "race": null,
+      "type": {
+        "value": "undead",
+        "subtype": "plant",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 2,
+      "xp": {
+        "value": 450
+      },
+      "source": {
+        "custom": "Vecna-Warped Arcana",
+        "book": "Diane Clearwater Bestiary Compendium",
+        "page": "",
+        "license": "",
+        "rules": "2024"
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [
+          "poison"
+        ],
+        "custom": "poison"
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [
+          "fire"
+        ],
+        "custom": "fire"
+      },
+      "ci": {
+        "value": [
+          "poisoned"
+        ],
+        "custom": "poisoned"
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {},
+    "spells": {},
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": 0,
+        "initiative": 20
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "36faf3722fcfc19c",
+      "name": "Undead Fortitude",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "none",
+          "cost": null,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Orchard Zombie"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "91d2122633c46d05",
+      "name": "Corpse Orchard Anchor",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>Within 20 ft of a Corpse Orchard Node, the orchard zombie regains 3 hit points at the start of each of its turns.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "none",
+          "cost": null,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Orchard Zombie"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "18fda4d79694232c",
+      "name": "Geometric Form",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>The root threading through the zombie's form is precise and symmetrical. Animals will not willingly approach within 30 ft of an orchard zombie.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "none",
+          "cost": null,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Orchard Zombie"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "0db6f5dba02e16d3",
+      "name": "Slam",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft, one target. <em>Hit:</em> 8 (1d10 + 3) bludgeoning damage plus 4 (1d8) necrotic damage (from root contact).</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Orchard Zombie"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "f05b2be9aaef932a",
+      "name": "Root Burst",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>The zombie erupts roots in a 10-ft radius. Each creature in the area must succeed on a DC 13 Strength save or be restrained for 1 minute. At the start of each of its turns, a restrained creature takes 4 (1d8) necrotic damage. The zombie dies immediately after using this action (its structural integrity is consumed).</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Orchard Zombie"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Orchard Zombie",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/the-ninth-school/assets/artwork/token-art/orchard-zombie-token.png",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    }
+  },
+  "flags": {
+    "the-ninth-school": {
+      "sourcePage": "orchard-zombie"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14",
+    "createdTime": 1780423740915,
+    "modifiedTime": 1780423740915,
+    "lastModifiedBy": null
+  }
+}

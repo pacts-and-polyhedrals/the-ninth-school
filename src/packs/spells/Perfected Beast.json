@@ -1,0 +1,91 @@
+{
+  "_id": "40d9fe1bd77f19e7",
+  "name": "Perfected Beast",
+  "type": "spell",
+  "img": "modules/the-ninth-school/assets/artwork/spell-icons/perfected-beast.png",
+  "system": {
+    "description": "<p>You rewrite a beast's physical form, applying one of the following permanent-seeming alterations for 1 hour: grant the beast a flight speed of 40 ft and wings; grant the beast +4 AC from chitinous plating; make the beast Large (if it is smaller); or grant the beast a second natural weapon attack per turn. The beast remembers none of this after the spell ends but remains altered in subtle, permanent ways (DM discretion).</p><p><em>At Higher Levels: At 5th level, grant two alterations. At 6th, the duration becomes 24 hours.</em></p>",
+    "source": {
+      "custom": "Vecna-Warped Arcana",
+      "book": "Vecna-Warped Arcana",
+      "page": "",
+      "license": "",
+      "rules": "2024"
+    },
+    "level": 4,
+    "school": "trs",
+    "properties": [],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "activities": {},
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1 hour",
+      "units": "inst"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": "Touch",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "recovery": []
+    },
+    "ability": "",
+    "actionType": "util",
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "the-ninth-school": {
+      "slug": "perfected-beast"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14",
+    "createdTime": 1780423279561,
+    "modifiedTime": 1780423279561,
+    "lastModifiedBy": null
+  }
+}

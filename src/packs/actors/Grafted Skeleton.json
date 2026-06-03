@@ -1,0 +1,468 @@
+{
+  "_id": "e459f91301e8870c",
+  "name": "Grafted Skeleton",
+  "type": "npc",
+  "img": "modules/the-ninth-school/assets/artwork/book-art/grafted-skeleton.png",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "dex": {
+        "value": 16,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "con": {
+        "value": 14,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "int": {
+        "value": 6,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "wis": {
+        "value": 8,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      },
+      "cha": {
+        "value": 5,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "max": null
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 13,
+        "calc": "flat",
+        "formula": ""
+      },
+      "hp": {
+        "value": 26,
+        "max": 26,
+        "temp": null,
+        "tempmax": null,
+        "formula": "4d8 + 8"
+      },
+      "init": {
+        "ability": "",
+        "bonus": ""
+      },
+      "movement": {
+        "burrow": null,
+        "climb": 20,
+        "fly": null,
+        "swim": null,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 60,
+        "blindsight": null,
+        "tremorsense": 15,
+        "truesight": null,
+        "units": "ft",
+        "special": "darkvision 60 ft, tremorsense 15 ft, passive Perception 9"
+      },
+      "spellcasting": ""
+    },
+    "details": {
+      "biography": {
+        "value": "<div class=\"page\" id=\"page-graft-skeleton\">\n  <div class=\"page-header\">\n    <div class=\"page-eyebrow\">Undead / Plant · Ranged Scout · CR 1 · XP 200</div>\n    <div class=\"page-title\">Grafted Skeleton</div>\n    <div class=\"page-subtitle\">A skeleton augmented with orthogenic plant grafts — used for scouting, ranged harassment, and ambush</div>\n  </div>\n  <div class=\"lore-box\"><p>\"The diviner reads the hidden pattern. I simply gave the skeleton new eyes.\" — D.C., margin note on Divination</p></div>\n  <div class=\"stat-block\">\n    <div class=\"sb-head\">\n      <div class=\"sb-name\">Grafted Skeleton</div>\n      <div class=\"sb-type\">Medium undead (plant), lawful evil</div>\n      <div style=\"margin-top:8px;display:flex;gap:6px;flex-wrap:wrap\">\n        <span class=\"tag\">CR 1</span><span class=\"tag\">200 XP</span><span class=\"tag tag-green\">Standard Minion</span>\n      </div>\n    </div>\n    <div class=\"sb-body\">\n      <div class=\"attr-row\">\n        <div class=\"attr\"><div class=\"attr-label\">Armor Class</div><div class=\"attr-val\">13 (bark-graft plating)</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Hit Points</div><div class=\"attr-val\">26 (4d8 + 8)</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Speed</div><div class=\"attr-val\">30 ft, climb 20 ft</div></div>\n      </div>\n      <div class=\"core-stats\">\n        <div class=\"core-stat\"><div class=\"cs-label\">STR</div><div class=\"cs-val\">10</div><div class=\"cs-mod\">(+0)</div></div>\n        <div class=\"core-stat\"><div class=\"cs-label\">DEX</div><div class=\"cs-val\">16</div><div class=\"cs-mod\">(+3)</div></div>\n        <div class=\"core-stat\"><div class=\"cs-label\">CON</div><div class=\"cs-val\">14</div><div class=\"cs-mod\">(+2)</div></div>\n        <div class=\"core-stat\"><div class=\"cs-label\">INT</div><div class=\"cs-val\">6</div><div class=\"cs-mod\">(–2)</div></div>\n        <div class=\"core-stat\"><div class=\"cs-label\">WIS</div><div class=\"cs-val\">8</div><div class=\"cs-mod\">(–1)</div></div>\n        <div class=\"core-stat\"><div class=\"cs-label\">CHA</div><div class=\"cs-val\">5</div><div class=\"cs-mod\">(–3)</div></div>\n      </div>\n      <div class=\"attr-row\">\n        <div class=\"attr\"><div class=\"attr-label\">Damage Vulnerabilities</div><div class=\"attr-val\">bludgeoning, fire</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Damage Immunities</div><div class=\"attr-val\">poison</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Condition Immunities</div><div class=\"attr-val\">exhaustion, poisoned</div></div>\n        <div class=\"attr\"><div class=\"attr-label\">Senses</div><div class=\"attr-val\">darkvision 60 ft, tremorsense 15 ft, passive Perception 9</div></div>\n      </div>\n      <div class=\"rule\"></div>\n      <div class=\"section-head\">Special Traits</div>\n      <div class=\"trait\"><div class=\"trait-name\">False Appearance</div><p class=\"trait-desc\">While motionless in foliage or among trees, the grafted skeleton is indistinguishable from a dead tree or vine-covered ruin. Perception DC 17 to detect.</p></div>\n      <div class=\"trait\"><div class=\"trait-name\">Grafted Sight</div><p class=\"trait-desc\">The skeleton's eye sockets contain living orthogenic plant-eyes. It has advantage on Perception checks that rely on sight and cannot be surprised while it has at least 1 hit point. It relays visual information to Diane Clearwater if she is within 1 mile, as long as the skeleton is intact.</p></div>\n      <div class=\"rule\"></div>\n      <div class=\"section-head\">Actions</div>\n      <div class=\"action\"><div class=\"action-name\">Thorn Volley</div><p class=\"action-desc\"><em>Ranged Weapon Attack:</em> +5 to hit, range 60/120 ft, one target. <em>Hit:</em> 8 (2d4 + 3) piercing damage plus 3 (1d6) poison damage (botanical toxin, not venom — poison immunity does not apply unless immunity is to plant-based toxins specifically).</p></div>\n      <div class=\"action\"><div class=\"action-name\">Bone Claw</div><p class=\"action-desc\"><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft, one target. <em>Hit:</em> 6 (1d6 + 3) slashing damage.</p></div>\n      <div class=\"action\"><div class=\"action-name\">Root Pin <em>(1/day)</em></div><p class=\"action-desc\">The skeleton drives a graft-root into the ground at a point within 10 ft. One creature within 5 ft of that point must succeed on a DC 13 Strength save or be restrained until freed (DC 13 Strength check). The pin is a physical object (AC 8, 5 HP) and can be destroyed.</p></div>\n    </div>\n  </div>\n</div>",
+        "public": ""
+      },
+      "alignment": "lawful evil",
+      "race": null,
+      "type": {
+        "value": "undead",
+        "subtype": "plant",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 1,
+      "xp": {
+        "value": 200
+      },
+      "source": {
+        "custom": "Vecna-Warped Arcana",
+        "book": "Diane Clearwater Bestiary Compendium",
+        "page": "",
+        "license": "",
+        "rules": "2024"
+      }
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [
+          "poison"
+        ],
+        "custom": "poison"
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [
+          "bludgeoning",
+          "piercing",
+          "slashing",
+          "fire"
+        ],
+        "custom": "bludgeoning, fire"
+      },
+      "ci": {
+        "value": [
+          "exhaustion",
+          "poisoned"
+        ],
+        "custom": "exhaustion, poisoned"
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {},
+    "spells": {},
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": 0,
+        "initiative": 20
+      }
+    }
+  },
+  "items": [
+    {
+      "_id": "ad40df2272dab02c",
+      "name": "False Appearance",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>While motionless in foliage or among trees, the grafted skeleton is indistinguishable from a dead tree or vine-covered ruin. Perception DC 17 to detect.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "none",
+          "cost": null,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Grafted Skeleton"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "8656888a00dd9e8d",
+      "name": "Grafted Sight",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>The skeleton's eye sockets contain living orthogenic plant-eyes. It has advantage on Perception checks that rely on sight and cannot be surprised while it has at least 1 hit point. It relays visual information to Diane Clearwater if she is within 1 mile, as long as the skeleton is intact.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "none",
+          "cost": null,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Grafted Skeleton"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "b110048213e6733f",
+      "name": "Thorn Volley",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Ranged Weapon Attack:</em> +5 to hit, range 60/120 ft, one target. <em>Hit:</em> 8 (2d4 + 3) piercing damage plus 3 (1d6) poison damage (botanical toxin, not venom &mdash; poison immunity does not apply unless immunity is to plant-based toxins specifically).</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Grafted Skeleton"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "67f2069b620cdff8",
+      "name": "Bone Claw",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft, one target. <em>Hit:</em> 6 (1d6 + 3) slashing damage.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Grafted Skeleton"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    },
+    {
+      "_id": "1f8d14b385211c92",
+      "name": "Root Pin",
+      "type": "feat",
+      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+      "system": {
+        "description": {
+          "value": "<p>The skeleton drives a graft-root into the ground at a point within 10 ft. One creature within 5 ft of that point must succeed on a DC 13 Strength save or be restrained until freed (DC 13 Strength check). The pin is a physical object (AC 8, 5 HP) and can be destroyed.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Vecna-Warped Arcana",
+          "book": "Diane Clearwater Bestiary Compendium",
+          "page": "",
+          "license": "",
+          "rules": "2024"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "properties": [],
+        "requirements": "Grafted Skeleton"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "prototypeToken": {
+    "name": "Grafted Skeleton",
+    "displayName": 20,
+    "actorLink": false,
+    "disposition": -1,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/the-ninth-school/assets/artwork/token-art/grafted-skeleton-token.png",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    }
+  },
+  "flags": {
+    "the-ninth-school": {
+      "sourcePage": "graft-skeleton"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14",
+    "createdTime": 1780423740916,
+    "modifiedTime": 1780423740916,
+    "lastModifiedBy": null
+  }
+}

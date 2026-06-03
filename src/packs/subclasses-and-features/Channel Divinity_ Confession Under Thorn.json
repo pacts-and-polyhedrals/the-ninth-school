@@ -1,0 +1,67 @@
+{
+  "_id": "adf6640bc1b8e79c",
+  "name": "Channel Divinity: Confession Under Thorn",
+  "type": "feat",
+  "img": "icons/sundries/books/book-symbol-eye-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>As a Magic action, present your holy symbol and choose one creature within 30 feet. The target makes a Wisdom saving throw. On a failure, it is wracked by whispered pain for 1 minute. Once on each of your turns when the target takes damage, you may force it to speak one true sentence about a fear, guilt, secret, or hidden allegiance. The target can repeat the save at the end of each of its turns.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Vecna-Warped Arcana",
+      "book": "Vecna-Warped Arcana",
+      "page": "",
+      "license": "",
+      "rules": "2024"
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Cleric: Whispered Agony Domain",
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "max": "1",
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": "3"
+    },
+    "properties": [],
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "the-ninth-school": {
+      "slug": "channel-divinity-confession-under-thorn"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14",
+    "createdTime": 1780423279552,
+    "modifiedTime": 1780423279552,
+    "lastModifiedBy": null
+  }
+}

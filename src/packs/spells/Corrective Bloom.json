@@ -1,0 +1,91 @@
+{
+  "_id": "50b5997261f202c1",
+  "name": "Corrective Bloom",
+  "type": "spell",
+  "img": "modules/the-ninth-school/assets/artwork/spell-icons/corrective-bloom.png",
+  "system": {
+    "description": "<p>You detonate an arcane signal through local plant life, forcing accelerated, chaotic growth. All plants in a 15-ft radius grow 1d4+1 feet in an instant, creating difficult terrain. Creatures in the area take 2d6 piercing from erupting wood and thorns (Con save halves). You choose which creatures are affected.</p><p><em>At Higher Levels: Damage increases by 1d6 per slot level above 2nd.</em></p>",
+    "source": {
+      "custom": "Vecna-Warped Arcana",
+      "book": "Vecna-Warped Arcana",
+      "page": "",
+      "license": "",
+      "rules": "2024"
+    },
+    "level": 2,
+    "school": "trs",
+    "properties": [],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "activities": {},
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": "60 ft",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "recovery": []
+    },
+    "ability": "",
+    "actionType": "util",
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "the-ninth-school": {
+      "slug": "corrective-bloom"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14",
+    "createdTime": 1780423279560,
+    "modifiedTime": 1780423279560,
+    "lastModifiedBy": null
+  }
+}

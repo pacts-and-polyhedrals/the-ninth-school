@@ -1,0 +1,91 @@
+{
+  "_id": "e704f1a79102b1da",
+  "name": "Corpse Orchard",
+  "type": "spell",
+  "img": "modules/the-ninth-school/assets/artwork/spell-icons/corpse-orchard.png",
+  "system": {
+    "description": "<p>You detonate a corpse into a Corpse Orchard: a 20-ft radius of necrotic vegetation that grows from the remains. The orchard is difficult terrain, lightly obscured, and deals 2d8 necrotic damage to living creatures that start their turn inside it (Con save halves). Undead are healed by this damage instead. The orchard is permanent until destroyed (100 HP, AC 12, immune to poison and psychic).</p><p><em>At Higher Levels: Damage increases by 1d8 per slot level above 5th.</em></p>",
+    "source": {
+      "custom": "Vecna-Warped Arcana",
+      "book": "Vecna-Warped Arcana",
+      "page": "",
+      "license": "",
+      "rules": "2024"
+    },
+    "level": 5,
+    "school": "nec",
+    "properties": [],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "activities": {},
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "Permanent",
+      "units": "inst"
+    },
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": "60 ft",
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "recovery": []
+    },
+    "ability": "",
+    "actionType": "util",
+    "attack": {
+      "bonus": "",
+      "flat": false
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "chatFlavor": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "the-ninth-school": {
+      "slug": "corpse-orchard"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14",
+    "createdTime": 1780423279561,
+    "modifiedTime": 1780423279561,
+    "lastModifiedBy": null
+  }
+}

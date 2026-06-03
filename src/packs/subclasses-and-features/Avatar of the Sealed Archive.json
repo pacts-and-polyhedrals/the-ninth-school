@@ -1,0 +1,67 @@
+{
+  "_id": "519c23ffd98d32fe",
+  "name": "Avatar of the Sealed Archive",
+  "type": "feat",
+  "img": "icons/sundries/books/book-symbol-eye-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>As a Bonus Action, you become a living vault for 1 minute. You gain truesight out to 30 feet, resistance to psychic and necrotic damage, and when a hostile creature starts its turn within 30 feet, it must succeed on a Wisdom saving throw or be unable to speak above a whisper and unable to cast spells with verbal components until the start of its next turn. Once used, this feature cannot be used again until you finish a long rest.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Vecna-Warped Arcana",
+      "book": "Vecna-Warped Arcana",
+      "page": "",
+      "license": "",
+      "rules": "2024"
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Paladin: Oath of Forbidden Secrets",
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "max": "1",
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    },
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": "20"
+    },
+    "properties": [],
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "the-ninth-school": {
+      "slug": "avatar-of-the-sealed-archive"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3",
+    "coreVersion": "14",
+    "createdTime": 1780423279552,
+    "modifiedTime": 1780423279552,
+    "lastModifiedBy": null
+  }
+}
