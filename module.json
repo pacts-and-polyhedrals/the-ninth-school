@@ -2,7 +2,7 @@
   "id": "the-ninth-school",
   "title": "The Ninth School",
   "description": "A D&D 5e content module for Foundry VTT v12–v14. Contains the School of Orthogenesis wizard subclass, Cleric Domain: Whispered Agony, Paladin Oath: Forbidden Secrets, all associated spells and class features, the complete Diane Clearwater bestiary (CR 1/2 to CR 21), the Eight Doors of Knowing poem collection, and full GM lore. Created by DM Asmo of Pacts and Polyhedrals.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "authors": [
     {
       "name": "DM Asmo",
