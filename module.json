@@ -1,7 +1,7 @@
 {
   "id": "the-ninth-school",
   "title": "The Ninth School",
-  "description": "A D&D 5e content module for Foundry VTT v12–v14. Contains the School of Orthogenesis wizard subclass, Cleric Domain: Whispered Agony, Paladin Oath: Forbidden Secrets, all associated spells and class features, the complete Diane Clearwater bestiary (CR 1/2 to CR 21), the Eight Doors of Knowing poem collection, and full GM lore. Created by DM Asmo of Pacts and Polyhedrals.",
+  "description": "A D&D 5e content module for Foundry VTT v12\u2013v14. Contains the School of Orthogenesis wizard subclass, Cleric Domain: Whispered Agony, Paladin Oath: Forbidden Secrets, all associated spells and class features, the complete Diane Clearwater bestiary (CR 1/2 to CR 21), the Eight Doors of Knowing poem collection, and full GM lore and adventure hooks. Created by DM Asmo of Pacts and Polyhedrals.",
   "version": "1.1.0",
   "authors": [
     {
@@ -27,49 +27,64 @@
       }
     ]
   },
-  "scripts": ["scripts/the-ninth-school.mjs"],
-  "styles": ["styles/the-ninth-school.css"],
+  "scripts": [
+    "scripts/the-ninth-school.mjs"
+  ],
+  "styles": [
+    "styles/the-ninth-school.css"
+  ],
   "packs": [
     {
       "name": "actors",
-      "label": "The Ninth School — Bestiary",
+      "label": "The Ninth School \u2014 Bestiary",
       "path": "packs/actors",
       "type": "Actor",
       "system": "dnd5e",
-      "ownership": {"PLAYER": "OBSERVER", "ASSISTANT": "OWNER"},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
       "flags": {}
     },
     {
       "name": "subclasses-and-features",
-      "label": "The Ninth School — Subclasses & Features",
+      "label": "The Ninth School \u2014 Subclasses & Features",
       "path": "packs/subclasses-and-features",
       "type": "Item",
       "system": "dnd5e",
-      "ownership": {"PLAYER": "OBSERVER", "ASSISTANT": "OWNER"},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
       "flags": {}
     },
     {
       "name": "spells",
-      "label": "The Ninth School — Spells",
+      "label": "The Ninth School \u2014 Spells",
       "path": "packs/spells",
       "type": "Item",
       "system": "dnd5e",
-      "ownership": {"PLAYER": "OBSERVER", "ASSISTANT": "OWNER"},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
       "flags": {}
     },
     {
       "name": "lore",
-      "label": "The Ninth School — Lore & GM Notes",
+      "label": "The Ninth School \u2014 Lore & GM Notes",
       "path": "packs/lore",
       "type": "JournalEntry",
-      "ownership": {"PLAYER": "OBSERVER", "ASSISTANT": "OWNER"},
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
       "flags": {}
     }
   ],
-  "packFolders": [],
   "url": "https://github.com/pacts-and-polyhedrals/the-ninth-school",
   "manifest": "https://raw.githubusercontent.com/pacts-and-polyhedrals/the-ninth-school/main/module.json",
-  "download": "https://github.com/pacts-and-polyhedrals/the-ninth-school/releases/download/v1.0.0/the-ninth-school-v1.0.0.zip",
+  "download": "https://github.com/pacts-and-polyhedrals/the-ninth-school/releases/download/v1.1.0/the-ninth-school-v1.1.0.zip",
   "changelog": "https://github.com/pacts-and-polyhedrals/the-ninth-school/blob/main/CHANGELOG.md",
-  "license": "Homebrew content for private table use. D&D, Foundry VTT, and Vecna are trademarks of their respective rights holders."
+  "license": "Homebrew content for private table use. Dungeons & Dragons, Foundry VTT, and Vecna are trademarks owned by their respective rights holders. Module created by DM Asmo / Pacts and Polyhedrals."
 }
